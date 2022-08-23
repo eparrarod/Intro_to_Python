@@ -1,0 +1,1 @@
+What is the return value of the cheer_up function

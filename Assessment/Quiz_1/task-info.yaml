@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: void
+  is_correct: false
+- text: String
+  is_correct: false
+- text: None
+  is_correct: true
+- text: None of the above
+  is_correct: false
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false
+local_check: true

@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 540
+    length: 11
+    placeholder_text: '# convert the text variable into a float'
+  - offset: 565
+    length: 10
+    placeholder_text: '#get the type of the text variable'
+  - offset: 525
+    length: 7
+    placeholder_text: '# get the user input'
+- name: __init__.py
+  visible: false

@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 386
+    length: 5
+    placeholder_text: ???
+  - offset: 518
+    length: 4
+    placeholder_text: '# Increase counter by 1'
+  - offset: 646
+    length: 4
+    placeholder_text: '# Decrease the counter by 1'
+- name: __init__.py
+  visible: false

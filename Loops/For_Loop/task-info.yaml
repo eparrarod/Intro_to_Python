@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 246
+    length: 12
+    placeholder_text: ???
+- name: __init__.py
+  visible: false

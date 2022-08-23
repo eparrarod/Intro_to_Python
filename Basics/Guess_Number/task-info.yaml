@@ -1,0 +1,20 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 38
+    length: 63
+    placeholder_text: '#print the message "Please guess a number between min and max:"
+      replacing min and max by the values of the corresponding variables'
+  - offset: 118
+    length: 12
+    placeholder_text: '# Get an integer input from the user'
+  - offset: 135
+    length: 33
+    placeholder_text: '#Check whether the player choose the correct number'
+  - offset: 191
+    length: 5
+    placeholder_text: ???
+- name: __init__.py
+  visible: false

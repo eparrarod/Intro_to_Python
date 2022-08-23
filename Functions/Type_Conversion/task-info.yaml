@@ -1,0 +1,17 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 383
+    length: 17
+    placeholder_text: '"Convert the variable float_number int here"'
+  - offset: 108
+    length: 13
+    placeholder_text: '"Convert the variable number to float here"'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

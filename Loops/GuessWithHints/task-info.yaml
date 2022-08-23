@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 93
+    length: 3
+    placeholder_text: '#Set to 100'
+- name: __init__.py
+  visible: false

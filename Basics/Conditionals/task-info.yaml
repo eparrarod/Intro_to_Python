@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 354
+    length: 2
+    placeholder_text: '# What do you think?'
+- name: __init__.py
+  visible: false

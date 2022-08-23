@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 84
+    length: 1
+    placeholder_text: ???
+  - offset: 190
+    length: 10
+    placeholder_text: Reassign anything to the variable here
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

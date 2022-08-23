@@ -1,0 +1,14 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 177
+    length: 12
+    placeholder_text: '# Call say_hello here'
+  - offset: 287
+    length: 31
+    placeholder_text: '# Define a function named "fun" to replace the three lines
+      above'
+- name: __init__.py
+  visible: false

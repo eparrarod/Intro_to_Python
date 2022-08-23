@@ -1,0 +1,34 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 130
+    length: 12
+    placeholder_text: ???
+  - offset: 221
+    length: 4
+    placeholder_text: ???
+  - offset: 357
+    length: 14
+    placeholder_text: ???
+  - offset: 564
+    length: 2
+    placeholder_text: ???
+  - offset: 1150
+    length: 11
+    placeholder_text: ???
+  - offset: 1455
+    length: 27
+    placeholder_text: '# Add a for loop that executes the appropriate number of rounds'
+  - offset: 1585
+    length: 22
+    placeholder_text: '# Update the number of rounds won by the player'
+  - offset: 1631
+    length: 26
+    placeholder_text: '# compute the number of rounds won by the computer'
+  - offset: 1031
+    length: 10
+    placeholder_text: ???
+- name: __init__.py
+  visible: false

@@ -1,0 +1,1209 @@
+{
+  "course_version" : 1,
+  "environment" : "unittest",
+  "summary" : "This is an introductory Python course.\n- The course will be most beneficial for beginner-level Python learners.\n- The course covers core Python features.\n- It contains hands-on examples of Python code implementation and exercises to practice new skills.\n- The course is based on the author's personal experience in Python development.",
+  "title" : "Belmont Intro to Python",
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "items" : [
+    {
+      "id" : 1786106486,
+      "title" : "Basics",
+      "task_list" : [
+        {
+          "id" : 2005183387,
+          "name" : "Hello",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 27,
+                  "length" : 20,
+                  "possible_answer" : "Ly58toeO1Bs8Qsc4gANVQQ==",
+                  "placeholder_text" : "Write your name here"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DNKfFDy+v2N2aDC/6YFrvJ7z0YbgMScjwgGeuTCNPZH0C4Yix+8rmgtMj5m1bzDtjICjLHLKZhPEWZAVHgSNGg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Welcome\nThis is ```\"Hello World!\"```\n\nIntroduce yourself to the World.\n\nTo run this script, right-click anywhere in the Editor view so you can see the context menu and select Run **'Hello'.**\n\nAlternatively, you can use the Ctrl+Shift+F10 shortcut. Exclusively in PyCharm Edu, you can use the execute icon ![](https://intellij-icons.jetbrains.design/icons/AllIcons/actions/execute.svg)",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1647126965,
+          "name" : "Comments",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 375,
+                  "length" : 23,
+                  "possible_answer" : "1enQCuiWq9OWQ4OfBvN0HA==",
+                  "placeholder_text" : "\"Comment out this line\""
+                }
+              ],
+              "is_visible" : true,
+              "text" : "a9VJii6CdrscpPfnVXQsIYmzKO2Y2ZO/dMG7Q0/lNk48uoYWvhd5Fpo9qoWOSRktBs6hXfAUzOklqNXhNVoEj5R2FK0+azqyBMdkt8P37NlHob/FrADo/PuommsHkIi0sp49PWAcBDCTfD67m5WlOjYmzm3edr2HseabF/ljCUGJHl+3XyjbjaMN6iZiXhh59FBwi/r9rFUUwtJx+mU8dBkckGC12jNrmunjDdOf8WPoo3906vbJvphVDJNv44ARHnBq2h1Ls0+mLDbwC+UqMSWksyBk31enOy3xRc89wqFpv3GYr7mxxLQPGRUZsyxp8WC1PA8oU2pFJlnTTq2yd8JOERSjezEUcZ8Qa21iPRYIxxPch0aVbrujoItfkPsgnZXq7nscf14HeMkm6hSCbxgHCvvKOsnN3ZYBZDRgqNBEdQVQdtKxmUSxYOL2jF1KDowQeaBi8Ano7d1Hdpx/3bfjmITLBLYkHKY+5LkGwdckK9QtjGFwTdspF0wnNBPf5O86RewxAJV4nvfkP5hDGsQz976mq1e3MSZ0eBeJ4NVOpPHLVW/u5ZE8grlNXMzjTKI5ceTgLI7kkL29UYE3yg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Comments\nComments are pieces of text that describe your code\n\nComments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter. Ensure that your comments are clear and easily understandable to other people.\n\nA comment in Python starts with the hash (```#```) character followed by a single space. Comments extend to the end of the physical line. \n\nYou can use Ctrl+/ to comment or uncomment the whole line or a block of code in PyCharm.\n\n### Block Comments\nBlock comments generally apply to a large section of code that follows them.\n\nBlock comments indented to the same level as that code.\n\n### Inline Comments\nUse inline comments sparingly. An inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1645597534,
+          "name" : "Variables",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 84,
+                  "length" : 3,
+                  "possible_answer" : "2fleudFYN6AcL8cKIBefEg==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 192,
+                  "length" : 38,
+                  "possible_answer" : "GdMOsp61WtJW7ULEGUR58Q==",
+                  "placeholder_text" : "Reassign anything to the variable here"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "Vkv4rR6zSyF8nEZf0QLooYSn2W8ECIAM8jGYW6eztnqugcda0xmaVopfgr3oej89RGzuZeQbq2GK2/fi2HLApiglPAYhdsnTUzsOgJ0mTPOiPhtAIQNJ6FtzWe86dF+nJqo/cZyq1cdB/xQ6ZGjzDrz9Muje7Ot1ndMxA17ErK5Sd3BmzXseb/8ESUXIAmWZQl/UMthIla2vBgxqQnEduCbBK5BHwnT/q7wUiyYjSl//9tM0/yfu7bvoszV5NPgCX20u8IZgTgtQF3eis8Ju/23aBrGO3nIvesc1z08eKXIs14OzSP5NU/62B+vjAyUIalLroiIqGtlPQv2J/Y4gWnoxSE1pU7gG+8FfExdHsAeakSCPYrjXyQ9OLwEAV9dBsZUDNTeQjz9p1iOVM260tw0q0Es9Tm/8np/c/0d2nna4x5DL/ntO8VzUbc+DHoDP"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "tMnMyG30mUxkyAm2DX1m2gwvTba9cQeZyvSAh9CZPIimiqUK+1lUcvTt1yWPiNCkS4+ZqWmLbcu+62cSfyGRTA=="
+            }
+          },
+          "description_text" : "# Variables\nVariables are elements used to store values. \nA variable is like a label, and in Python we use the ``` = ``` symbol, known as the assignment operator, to assign a value to a variable.\nThe first time you create a variable is known as declaration.\n\n```cd = 0``` Declaration of the variable cd with an initial value of 0. In Python, you need to assign a value when declaring a variable.\n\nAn assignment can be chained, e.g., ``` a = b = 2```.\n\n# Value vs address\nWhen you create a variable, Python will store each of them at a particular memory address in your computer's memory.\n\n\n\n## Naming convention\nIn Python, you may name variables the same way as Java. However, the most commonly used notation for naming variables in Python is to use lowercase and to use ```_``` between words.\nExamples:\n```\nuser\nusername\nlast_name\ntemporary_pass \n```\n```very_important_value_temporary_storage``` is a valid variable name. But aim to keep your variable names short.\n\n```temp_value``` Sometimes you can use abbreviations\n\n```GPA``` Sometimes acronyms are helpful. GPA is easy to understand if it is a program dealing with grades (in the US)\n\n```DAO``` Other times acronyms are not so helpful.   \n\n\n## Basic types\nA type defines a family of values that a programming language understands. \nThe basic types are:\n- integer: The variable holds a whole number (e.g., ```0```, ```2```, ```853```, ```-58```)\n- double: The variable holds a decimal point value (e.g., ```0.5```, ```1.2```, ```256.14```, ```-2.5```)\n- string: The variable holds a series of characters surround by double quotes (```\"```) (e.g., ```\"a\"```, ```\"This\"```, ```\"This is a longer text\"```) \n- boolean: A variable holds either the value of ```True```  or ```False``` \n\n## Casting (Type Conversion)\nIs the process of converting a variable from one type to a different type.\n\nThe most common casting you will do is to convert a variable of another type into a string.\nThis is achieved by using ```str(variable_to_convert)```\nExample:\n```\nvariable_1 = 1 # variable_1 is an integer holding the number 1\nvariable_2 = str(variable_1) # variable_2 is a string holding the value \"1\"\n```\n\nIf you need to print an integer you do not need to do an assignment. You can do:\n```\nvariable_1 = 25\nprint(str(variable_1)\n```\n\nTasks:\n- Change the value stored in the variable greetings to be the following string ```\"Hi there\"```.\n- Use the chain assignment to store 20 in both a and b on line 13.\n- use casting to print b on line 13\n\n<div class=\"hint\">\n  Follow the example from line 12\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 789798268,
+          "name" : "Augmented_Assignment",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 386,
+                  "length" : 3,
+                  "possible_answer" : "DPy+naXvWAR1RkZmuH43PQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 516,
+                  "length" : 23,
+                  "possible_answer" : "fmMJz+PdKIS8vZ0NM4mt1Q==",
+                  "placeholder_text" : "# Increase counter by 1"
+                },
+                {
+                  "offset" : 663,
+                  "length" : 27,
+                  "possible_answer" : "IurBN/B49rKT0Z6Thg/IVw==",
+                  "placeholder_text" : "# Decrease the counter by 1"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "rgA4wBGo0gTo5yTlcefZlHZH4IEOGS5YbbB8R1bbBgN5NP/f0NfX4ubkYzv1826MR+k8dRkPQkSI1DeKwJxK7gCpkopyxrL6PWYC5vDblyIf6jwmoIGojcRx3b3J3hlWnlVqivQO5YG3r/npKpncYLt6QHTTBVkMNRUva0oAvfY7nD8CrS7hj5fxIA63UsQlVB1nFzPu+2PrfhDcZmeHGx/gP96YEhXqgwdHMJwW8eTbMjSTgG/Xf4vUrTXKPY0BYFrsppbcbWj7TLaEZo3GSB4mAsMCGjnJtEo7k4Eis6onx8Xm4OsbXdiamTpG5FZjUtpeMZfBiWOY6n1yb4xZqH3PdAdTRUH8fwUgZqvwdRrfm6C8WNDq3Fe4oaEh50K6844YRnNXswlgcIlVUt/YbgaLQlp+d1cIUdrPGsb6KrfYVGay6XaRJ/jtvbKyKOWjmqadSG4MYaH2z0LsuFBPqEIVmvBlbfX6YzUoNLLm1j1llOazOrft2ZcupWEFp1DlFcEX7Cnd4RJqtqkX7t5/zbmiflvqcz7SIgt0CM7pxgnhPPUKDouNLfoJADKF/8CDjxh6aHdEDHN3Llqo5/vS/LL53BwSL5Uqm2Xi3bMEGk0iNdPbKRrOOM4KYucTQH1/v8XN14Y77HPywOvAhhW9eMdwJYi1fDiEGqVf9u1jZ1IDNpRI5qT4NY8hz8gY4VSrTs7DashtAlIUZzZsu2l0ssrPrKq0u8RMqwrDWwdUuWGORdvT14kx88k5doinMjf/3hE5oqA/0ROYT3he1fRN5RNx/d1+p0O+b2SbZQdoY56Os98LnBMTcVLuisljppGU6/6foCP6PE70cwkwBW57UF0TpY/n+WITbynC88JWBkK10l84Ew+KHgOgg2UtR4LxuEwm7mszDsA+KfrHj5kO2PfepP5+TVbzb12h7hqkqScrtybfTcQd+F9s0GU5sAXPphPDzeiYQ2N/4kTlLdGyVw=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Augmented Assignment\n\nAn augmented assignment is a single statement combining a binary operation and an assignment statement, such as ```+=```, ```-=```, etc.\n\nAn augmented assignment expression like ```x += 1``` can be rewritten as ```x = x + 1``` to achieve a similar effect.\n\n# Unary Operators\nIf you are familiar with other languages such as Java or C++, you may remember the unary operators ++ and -- which increase or decrease the value of a variable by one.\n\nPython does **NOT** have unary increment/decrement operators (++/--)\n\nTask\n- Use an augmented assignment to add 5 to number and update the variable.\n\n<div class=\"hint\">\n   Use the += operator\n</div>\n<div class=\"hint\">\n   Use the -= operator\n</div>",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1891952986,
+          "name" : "Print",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "hJnSPTezd9diyHJvlJy/40zPgs4qk+MXkIcvw9fScP9/9jVV8U4Sx2s+t2nhkiXjLDQ0vpv/pJjKkxxX2eYO+A=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Print\n\nThe keyboard and the screen are the primary mechanism you will use to communicate with the computer.\n\nThe print() function writes the value of the argument(s) it is given into the computer console. You may print any type of variable.\n\n\nThe following examples will print the specified message to the screen. \n```\ni = 256*256\nprint(\"The following is a number: \")\nprint(i)\n```",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 972218394,
+          "name" : "Formatted_Strings",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 948,
+                  "length" : 17,
+                  "possible_answer" : "+rWJpSfp1NRmA9q2fioiSg==",
+                  "placeholder_text" : "# Enter Your name"
+                },
+                {
+                  "offset" : 972,
+                  "length" : 15,
+                  "possible_answer" : "JFCs3HeRhhqoG+4cuS2Glg==",
+                  "placeholder_text" : "#Enter your age"
+                },
+                {
+                  "offset" : 1055,
+                  "length" : 3,
+                  "possible_answer" : "HCq92TrcYx7v6EshdKPChw==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1072,
+                  "length" : 3,
+                  "possible_answer" : "2guFYrfpwKZ3HZ9RRbbQ4Q==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1126,
+                  "length" : 3,
+                  "possible_answer" : "cyPBXhkGsCMPP408VbFANQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1139,
+                  "length" : 3,
+                  "possible_answer" : "pFKTpgDBiCqxfvG+cg8GMw==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1206,
+                  "length" : 3,
+                  "possible_answer" : "4iMGpMhlTtqw1gs/vbjxgQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1219,
+                  "length" : 3,
+                  "possible_answer" : "XSmS7jRjR00xYEE49HNA4A==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1281,
+                  "length" : 3,
+                  "possible_answer" : "LsHxyTEYRlYCVoy90hxhQg==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1294,
+                  "length" : 3,
+                  "possible_answer" : "LsHxyTEYRlYCVoy90hxhQg==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1309,
+                  "length" : 3,
+                  "possible_answer" : "QOrsEv0aDdxpBgl7Si2+c2ETncxOZooX5n/6Wnvk14E=",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "w4e/D8KHmemA9DN5fQKnnpmiV522+Qf9y9DU0Ol0bgOiKlXaFOCWXVY8LuHbjjO69WVmxiDUJW5Fs71giaECHGw0udrkfkkm6OyN+s05QfR/BSfpa0zYhvYVdGDloBCX/ftihY/JDxqINa6QPh1RXSEyXTZ5jwJlzRQ6NSpA/xtGpHnL7CoFa/VWMMLHT8Oj5vLJByKLE3hM6fHJK3zu0/hpr2BrQRKHxAHHYPFQBuhgRIKh5ZTc6TYci0QHxWqFWXP9Zvwp6uY2tgii5FjQTKfhqPEpL0EE1WYUOTCNm+NCvjcM/Gj0VgoU0QxBg3TOGO5MexSob4uWiwnIwA5RijpIz1oH4WHoa7++PE3CPo54tzRhMv7IqCIF82QcUv4clS6fdYFMzX20MTU2BvjK/lOsGpdQmKtbaUTZ3N1m10oTs92so2iamBH3RF8aQb3u/wVc4AksUpMke0viW17JBy4OpKp8680BwTx4d+2vjWYFnM50lhPC6tfjeRj92r2rMGy8BqnM6OG6YABQAbWpBQ9ZImNha48Kf3I8d78tklIDBKHL7+XcIhPWb6mzb5l64Rqlh6jui7NAfYeTSRwoyjuQ8iZaoSRsiLAhXOIXtZ2TyGM32m4Rtr86saYpWda/OXu5KfZZbO5u9YUSgP8oyEakWYnst4CQVr9KCYjVXu3DBXdwODeI19csXudgnf5grZYfHQ63pQcGmJ8xBi8G6GgrsyRa2b0SLaEyN0gHBnmkI0NM9gwYyi0p/Y8Wq+WUzzE8IvbIq3Q35CdzA8gexOGFfZTMeJuin6t5CEPxRBHT+H7Bwfis38PbSWJYjEyKmpNK9yn5XckGgmAU0hjiIqTcgUBD0rrpVcd/heknmgMvLNZqc2wpOs9t/l6Bx2QSNtOd6I+suhlIY6ZtETcn3LxzR2QiAfQWk6Ndq2oKK60oIQflBWHcovfgonNNc1SKgUHkNVHfbqT0nOB9lmSX7NInRhweMjeNv82HQzUVeocre00E3jpMzzhN6G3cKJUVWFgjC8UFeHilUtiyf7PQGV9JTbuMA+bFVDLspcb1+lDFRlT9r1n69BbyhGRei/Hlcd8Gr1gcUoQYV8pOMvcGwaExgfshldI0HFO6SDb5gi3Hahd6tId/jRV1ed6DVZn55EQdvELEwF9Qv8yAB5zJPq21iiI6Rg4Za84UZ/e7iSkKVyFyzaS5KeUVbE3DZs4DC9gkk1g4Dqj9vgJWQqjvPwNrJ5Q71WDOBLaWlWI7da2NgwfoF+HBEc8Gy3jByCy3twkwfjjxVWmiDE5jJA011wKLIVDAh455a8Nz9WO4ufJjb53eUE3uoT3t0H+TJb88oXvkhX5skzOD5XD4i7SFt/SpgdLAy64Cl430+I3RKk7RnEj12ppKEW9LslsUu1WWu4Fh9Uu0YOAmvvVFlPz1DD5jMB/LZi4SSnYmI7tjvsF7uQyJMlaz6yVKKQvUAMUMG+4F0UIYySAL+Xm531j7XwAUx+hPYmsEBJKRhbTQyKKd/WMKEu/HJnaaLjh349XC55MK9BnTrvoPYcqABoY5bbdw9EI4IPvWfULP8Il4RgK209jFGcgBjBMY9fzgdxtPdgwll3TgH82hC1bw4OU4PEXRyUXuawk5EY8vq6ke2Os1hXGH13j2+2GgqvCeisDnA/sURpgwulgof2LwDhfgNtkOQ/UH4aj/WXIxjdL2DDd3nDVc1eb9Prmchtc+ngLmgxwzW3HGc1tS32qZx5zxQnBOUohLQddNu6j3dtuZriJIHfrYbPbizQl7G/a9tB8X"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# String Formatting\n\nWhenever you are displaying information to the user in the form of text you may need to combine different types of variables into a message for the user.\n\nString formatting is the process of combining strings and variables of different types.\n\n## Formatting Using +\nYou can combine Strings and variables by using the + operator to add up strings.\nAny variable that is not a string needs to be converted to a string. You can use ```str()```.\n\n## Formatting Using %\nYou can use the % operator after a string is used to combine the string with variables. \nThe %s special symbol is used as a placeholder for a string. \nThe %d special symbol is used as a placeholder for numeric or decimal values\nThe %i special symbol is used as a placeholder for integer values\nThe %f special symbol is used as a placeholder for float values\n\n## Formatting Using f-string\nA formatted string literal, or an f-string, is a string literal that is prefixed with 'f' or 'F'. These strings may contain replacement fields, which are expressions delimited by curly braces {}.\n\nThe parts of the string outside curly braces are treated literally. Escape sequences are decoded like in ordinary string literals. Replacement expressions can contain line breaks (e.g., in triple-quoted strings), but they cannot contain comments. Each expression is evaluated in the context where the formatted string literal appears, in order from left to right.\n\n## Formatting Using ```format()```\nYou can use format() to perform a string formatting operation. \nTo use it you need to have a string that contains literal text and replacement fields delimited by braces {}. \nEach replacement field contains either the numeric index of a positional argument, or the name of a keyword argument. \nformat() will produce a copy of the string where each replacement field is replaced with the string value of the corresponding variables within the parenthesis.\n\n\nTasks:\n- Fill in the blanks for the name and age variables with your own\n- Print a message that looks similar to the one below using the three ways of formatting a string:\n\n```Hello, My name is Thom and I am 556 years old.```\n\n- Create a formatted string using +\n- Create a formatted string using %\n- Create a formatted using an f-string\n- Create a formatted string using format()",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1966168921,
+          "name" : "Input",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 525,
+                  "length" : 20,
+                  "possible_answer" : "YPegvFRNe4F/kLt8a3bBTg==",
+                  "placeholder_text" : "# get the user input"
+                },
+                {
+                  "offset" : 553,
+                  "length" : 40,
+                  "possible_answer" : "u0Jc1h3BbUzuuKvGh/GqfA==",
+                  "placeholder_text" : "# convert the text variable into a float"
+                },
+                {
+                  "offset" : 607,
+                  "length" : 34,
+                  "possible_answer" : "n8ntH02GRtq35mEGroEK0Q==",
+                  "placeholder_text" : "#get the type of the text variable"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "7u3hlb73/rjbPl7RmISXN5Crwhk1ruBe5rWq4QOOZUT0cnUtTS6HrCWz+6reEZbMewq+zqVTFnVR6ZfrET8L3R5U1hvEgb6i1QCWDZaph2pynEuA8gMlxRq4rVs0mftEChUW3z7oyvsS/qDmqsVnhzL4U3Q7NBcb6amVfN48WJzkwKjBHjClvcUFKMDQoot2hu/tXLrgwIA8wlPO9UPOkn5QM3ceFkWV0fq4FO1kvh9DxvoNlOH+ZytaRV+l3UEUaTV7cj8cIkV6j9yVdgiH7XKTH4etJTeZWM6eVQKBO+iDLZOap6GpiEM/TEs3b741l/lYgg/MOQfxDoVqvcMcfCMmINh+B4dtpvOuciYAn44JFMbUmazDltvxPQZbrhzSYL8ZLV5JeSbpEFc+xth+CD1nHgxkt0NvUj+KbOj9bVQqo/S22Us5AhpMPYfoDrpqSe4xZy/5a3NDW5y37MOYs6tZeB8LzvQZT/P9ghyahf2WcPZT+YJTTrs6tBDo+5AS0R3B/jdy5MO8pef8wMtbW5Yy2srHl5BbOTMxrABGyVbVO3cTzyCmh5uOvrAQEbEujS1m2cSbhwcE2rdKHK05MGpxMTl0EJO7JurnMN1tnrM6P3ALEtkHZxYJeBOU3fn9u2QtruPSugY+L43mH5IjyPYDcEI2GtfzcYBOs0oScX+mXFHfI8zIJQh9fXUgzPtzcHQwqbCOzub+nsqRtdjUqDI7t3l7VJser79upl4cHCnZS2yuIp3T5N6UBDie5ZH6hQ3V6Z22jvY2tBcHWcYi/RFTM+MxeSpcNfPpqgNzy2obHpUrd53TLumEW2JTWykPBjFWP/umMq4bQpAFGJF+VsA3O/FLj83Mcz73XScScCeDN2qM9nCVo5bF/n6Ozzfs9Kr9imVv8u/j5ywdBGmOhUpSCiMqzm4jUJ54QpURVqs="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Input\nWhen humans send information into a computer program, it is generally by entering text.\n\nIn the case of sending a value into a program in Python, the word input can be used within a program. \nFor example:\n```radius = input()```\ninput will accept a value typed by the user using the keyboard and will return it as a string of characters. This makes sense because the user typed it as a string of characters.\n\nIf you are expecting a number, use casting to convert the input text into the appropriate type.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1090256958,
+          "name" : "Boolean_Operators",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 52,
+                  "length" : 3,
+                  "possible_answer" : "7fwRgGhI1XP/fa9HQT0KaQ==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "PUupmwKh/zDHZQZuhuXlIbYNgTC34Mlc1nu+wkequ+pze5bz+Q9+Y9hliZitey2Qy7H0ctz2gDas2PdgHrbgWwRR/Iq95O8fBF8Nm5D5bkD5K6NqtunRHrCgPwPVjEf8RBN4DH2l546IAQA47skNmoyxvpPVT84vyW61cuWsDVyWkedCiWHxRusKgohpFLqr3JlHgxVo4+nlQo9zLUBThT3qIiq+YGKYQclTrx1YWVXbKXeKfZZWGWSVIkOufpOefCUUxnni4FfpEVIza/Djwwv5G1RobDkGAifLuX4WNGU3bz7Y3OeRyQ6V8xxu3eO5rdc0UmBdxfM7Y3ajh2dK8+8BiTIqurpbiE4HewuwRjE="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Boolean operators\nBoolean is a type of value that can take only one of two possible values. It can only be ```True``` or ```False```. \n\nThe most common boolean operators are ```<```, ```>```, ```==```, ```>=```, ```<=```, and ```!=```.\n\nBoolean operators compare the values of two objects. The objects need not have the same type. If both are numbers, they are converted to a common type. \n\nThe equality operator ```==``` compares two variables and checks whether they are equal. variables of different types that are not numbers always compare unequal.\nEqual means that they have the same value.\n\nTask\n- Check whether the variable two is equal to three.\n- Check if the variable is_equal has a deceiving name.\n- Check if the variable is_false does indeed contain a lie.\n\n\nThe operators ```is``` and ```is not``` test for object identity: \n- ```x is y``` is ```True``` if and only if x and y are the same object\n- ```x is not y``` yields ```True``` if and only if x and y are NOT the same object\n\n## Boolean Operators TLDR\n- ```<``` Less than\n- ```>``` Greater than\n- ```<=``` Less than or equal to\n- ```>=``` Greater than or equal to\n- ```==``` Equal to\n- ```!=``` Not equal to\n- ```is``` The two variables reference the same entity NOT only the same value\n- ```not``` negation\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1704103258,
+          "name" : "Nesting",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "cDyn66SNcdPF73n5Yt6MDrnLv/N7FQZlCoQpMGdxt2eelwpDmMmSCZBotWbQKQPMQtKW1vmsMTmofr9TVr+TWq1vNZI7KUpsfisHXxst1BWMnrv8b5+CFRUZ9ONhZ9JSGHoq0D2epk90KIYDfUwlkCk0my3mcRpamQ9BotuDc8eiHyiDpGB+xF8uFlgHxSqXBI85QKA0VC+p6cC+Y7+mHpLCZ2IgLjfzJYlkuml0dd6VJB3gqbsobpL31nNsIs/S1N+OUK3/mekpN+gaSmUXKD7hYvfdnSLEmzrhkHM0ZYBjEuwRDjNCIbdbU0aaY3k2mFNfX87Pc7j8O1VhMoJ5lVlYsNMjuffjqfKRaZj2ms1MXD30f/Vq7zWQOrVCOpmusKdR3NtMPQdYgtrDm6y+XHj/zELx1HY/cTIyN/nR4Dpjfo/M3o5ZBa6DlL6xPpC3J8FMVF66RwWY7SBKNHqxe4kVlUd3BD71GM8Y/CyxPXnmv1pTlsTgNtDFzdI6vJTHRoJli2TJnCPzGBG0WEAH23hBr92b8TvlQFcHpad0hKqo8crcM5nx4qt6/AOh4W3r8vDu0Xm85M1+2EpRwwxb7dvRNVvQi6brxcP2uxrzHahFwseTiaenyQ4+SNuaApi1"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Nesting\nYou can link conditions that depend on the result of other conditions. \n\nWhenever an if statement is inside another if statement or if/else statement, we say that it is nested.\n\n### Example 1: Taxes\n```\nif income > 9950:\n    if income > 40525:\n        if income > 86375:\n            print(\" You are in a higher tax bracket. Consider getting an accountant\")\n        else:\n            print(\" You are in the 12% tax bracket\")\n    else:\n        print(\" You are in the 10% tax bracket\")\nelse:\n    print(\" You are in the 0% tax bracket\")\n```\n\n### Example 2: Shirt sizes\n```\nchest_width = 59951\nif chest_width < 37:\n    print(\"Get a S size\")\nelse:\n    if chest_width < 40:\n        print(\"Get a M size\")\n    else:\n        if chest_width < 43:\n            print(\"Get a XL size\")\n        else:\n            print(\"Get a XXL size\")\n```\n\n\n## Elif\n\nPython has a special feature that implements nesting of if and else statements: the elif. \n\nThe ```elif``` construct combines an else and an if, and this reduces the amount of indenting that has to be done when you have nested if within else statements.\n\n<div class=\"hint\">\n  An if … elif … elif … sequence is a substitute for the switch or case statements found in other languages.\n</div>\n\n\n```\nchest_width = 59951\nif chest_width < 37:\n    print(\"Get a S size\")\nelif chest_width < 40:\n    print(\"Get a M size\")\nelif chest_width < 43:\n    print(\"Get a XL size\")\nelse:\n    print(\"Get a XXL size\")\n```",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 396734274,
+          "name" : "Dynamic_Type",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 353,
+                  "length" : 52,
+                  "possible_answer" : "/gxBgZ9DkPurQeAhOZGqYg==",
+                  "placeholder_text" : "# Assign a value of your choice (int, float, String)"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "MzF/O2UreTBUUOvMKSDQP8e583SW1B/dya40IU3ATZPd6XLdj9oBDiQydxkUb9dIC65hdP20+dl98aKL+pqB0LLe7ZWRWxxgy7MxJ7Cdu46m7xnzWDDAb7WEbceK63y2WuyOn68W/G9nXoNmto6z4RWJ1TruK23LntgQ5e/IWZrpnGj4waZPLyFQLLySoG5ugpA7Iw+cboW+PC45Dj1KqOhSl13KKNOFTBNzNuofZlXlHU2gZN2OeRgOU3slowWICqPesjP+b1Qw2/KIX6dU0c/9xzYdqRMpdPO/f79hahmJvErgrnpeEVBivnXvtT72J/ylnDhxa1VDQ14qKsFU21fKd2WZVaUkrI5xQ1Bqfc+m8fsrQCJMdZpJqhN8i8dtQD02tPfrC6JnBU1nWJm7n2CixIDLtgv4l6n1Z5WRnO6R4DDNLVdU7MNzcphT26Im2JT1g/0yVAngwOmwCFF0scBI+D/QvfFA2NYA9P/8yZ0pQQBAi+5q5Fm4rEqKiLChrkZ4H/fOlASa2ghUNyvnMD/itHucJehJfxe0nTVAbvWKiXMgsEglJ0DNyTixsxDjw1wqO34awsUQ/NdeVYQr3CXJWXM2QL4ncCdV8DwRrvGwW2q1Qwb/bdVdR6YcjwaE"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Dynamic Type\nUnlike other programming languages like Java, variables in Python use something called ```dynamic typing``` which means you do not need you to specify the type of value they will be allowed to store.\n\nIn Java, you need to specify the type for a variable (strongly typed),\n```int variable;```\n\nIn python, you only need to create the variable, the type of the variable will be detected by Python during the execution of the program\n```variable```\n\n\nTask:\n- Assign a float value to variable_x",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 964259740,
+          "name" : "Conditionals",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 354,
+                  "length" : 20,
+                  "possible_answer" : "A1TipJAXKbGLHAeyw2XKOg==",
+                  "placeholder_text" : "# What do you think?"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "MgUCTpDg1RuoSFhiZNQHIK3y5WIRKGAxx8ywL2uTQIxnL6MkI16QTA/L27v/O6qOn5gLEXMFDaRcPPHFuhALiffLpAPkftm0JjWEfCAw1u+daVomK0ZvRiqUl7N8Bzbfzrsyex8HSbHkRZqpp2cC1IgTUxPyMiCbC6P0PomwGkuBfWB4IHnSEukcwi5Kx6Gof417xlT+cuTuaaWwVscsPnhA2HADPo6V4SieE5dG/h9482xZgSOymsAcPep+7hLMucqcqZG4tqkdt6P0gApAkqkC8NzrrZlOnjWXgNZiWBIIwYF4G7KTEkU/UH5f/xlIpI/M9SrRGbGyU+8EMp6+rT1NunAoBuU+1+/G1t9Ek0eT11J6jwmKn4fir7SK/GUNCWBhK0LjvHAVKA/fp7Qdwuxld1FpTMAs63YXXFv5AzJh1bQMjWW9p6PKhbatGOco19LPdKnsd9002O9bPZmqmkTUiRPUF5fOwiaqH36Djtb3n0/f3xFCZTh1gNf1dhI5X98Aq890/uBx8a+kWGwwNyQGkgw/F6g9e4obxr/a8kpjRBsQrn/LHpb6ZEGzEhLeI/vF7wwxUSVmbr9zeQgjERxhsrkNOB+cI4AEpvsLAFBTaQYHTzEj1zFlCTZp16Q+KLNeKUF/ZOpmwmQG7tEeOr9eP0H4+XLbf5IjtiX6Bgqv0N4eolRNTxFCzt/CNHnADWYwlJhWrrvNATrHlO6VKEaXxBS0moVGeO6gPwwUZmR8TKBl2Krhs4k3fkEI57NOZvyX5o2PEYbM1JLdmpGPshaWJol25Pmc1gpI139tWMOlNyGfDJXzBa8zJR4W5GNSdl4LKhAYIRE4NhOTKJhOP3kl6nvr1DseVIhCtx12lXO7qt9D+0BKfwkHtNQ2fGrwNVVaUHt26IWaRh7YA/MOhQ5EHi2+x3ViSuw2esKZjxwzqnKKVtgFPXCssdjTpVtXpMCxE7X37A52onygWmCxOShXZeXwqGJ6g7Z1kqf+S+GwE+joDv7/yKwxxCy6gQtPjOx+0py0YQfiq0Uy4ZVdUhuYPtHiju3p+YtW9ZYyPMIDWzMeYVRvAf87wGxFhl/zceQadIo0ovf0qrALL6D1HhvMeR8EsDANJpNHCZFRXrE3ZUok1v811pS6TxMrzRVQQGSrslS3iUgiiKHVyoEZqPpRmUuPSZswM3h+qlwST9yfe7s444OCG6JaW3aSc4lv+NHE5+jQeCzmQa/veEMU8LnuiyESTXYBcI/86J0SEM161tnljRTjrBU2LJ8N2BxbnmVskmaft51kTFoxFrOcasCBkf9EUONtN8WMlxEr3d3E41FEiT0mKdz2KEohlae0Oun3xAyeFIsU6Qbdc0OBYLTjdBc/MfP4pBVgd9uaR11wgCKh59g2rDy77vAndLKfOoL97H8ZMVfeHsSDqvJcj5B+wzVNbsBWC8qv1tqheuOA4LuYxDddS51322oBpHVDl47UM2kYa2bpAqZPaE+2aX+ejnkYFxTDpa2YBaCv+r5/a49yyZFp+mikcQs9suko4oK6d4VfvtN++oX9wgosGBLHGHVz5wzWZVaHtvvi3EUDSVijs9edYkBwOKpm7AqdR2HODgCbPba5ty0N/PZIeu1/ef/LVcgDBrxK54OUgk5fv5YeqCs/d1dpS7LeioGU5KTBFFpuoaG2ZXd8GBqMRZ8UUclqNFoh/mcFFKfCet7moPT2i+qtWvyiV+nvJldJWpkS0JaGUy8rDh9eqMCwh9fvgMkSJ2NN9y2uWqWfBNM3Zdmm551AEUTiKwkGAVeutcmBEEQzetcfz0n6kD3BhQ=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# If Statement \n\n```if``` is the conditional statement in Python.\n\nAn if statement begins with the word if, followed by an expression that evaluates to\n```True``` or ```False``` (Boolean expression), followed by a colon (:), then a series of idented statements that are executed if the expression is True. \n\nNote: Unlike Java, you do not need to surround the condition within parenthesis()\n\nThe names True and False are constants having the obvious meaning, and a variable that can take on these values is a logical or Boolean variable. \n\n## Boolean Expression\nThe Boolean expression in Python can be anything that has a result that is ```True``` or ```False```. It can be any of the following:\n- A constant like ```True``` or ```False```\n- A logical expression (one that compares two things)\n- A logical combination of the previously listed options\n- A variable that has a True or False value. Commonly referred to as a flag\n\n# Logical Expressions in Python\nA logical expression can be any arithmetic expressions being compared using any of the following operators:\n- ```<``` Less than\n- ```>``` Greater than\n- ```<=``` Less than or equal to\n- ```>=``` Greater than or equal to\n- ```==``` Equal to\n- ```!=``` Not equal to\n\n# Logical Combinations:\n- ```and``` EG: a==b and b==c\n- ```or``` EG: a==b or a==c\n- ```not``` EG: not (a == b) # same as !=\n\n- The syntax is simple and yet allows a huge number of combinations. \nFor example:\nif ```p == q and not p == z and not z == p```\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1189941369,
+          "name" : "Suite",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Suite \nPython calls a group of indented statements a suite. You can simply call it a block of code.\nAs mentioned before when using if statements, the set of lines of code or statements that will be executed if the condition is ```True``` need to be indented.\n\n```\nif a < b:\n    a = a + 1\n    b = b – 1\nc = a – b\n```\n\nIn this case the two statements following the ```:``` are indented by 4 more spaces than the if and the condition\nThis indentation tells Python that they are both a part of the if statement, and that if the value of a is smaller\nthan the value of b, then both of those statements will be executed. \n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1714427242,
+          "name" : "Else",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Else Clause\n\nAn if statement is a two-way or binary decision. If the expression is ```True```, then the indicated\nstatements are executed. If it is ```False```, then it is possible to execute a distinct set of\nstatements. \n\nThe else is not really a statement on its own, because it MUST be preceded by an if, so it is\npart of the if statement. It marks the part of the statement that is executed only when the\ncondition in the if statement is ```False```. \n\nThe else clause, consists of the word ```else``` followed by a colon, followed by a set of indented statements. \nA  simple example is:\n```\nif True:\n    print (\"The condition was true\")\nelse:\n    print (\"the condition was false\")\n```\nThe else as a clause is not required to accomplish any specific programming goals, and it\ncan be implemented using another if. The code:\n```\nif a < b:\n  print (\"a < b\")\nelse:\n  print (\"a >= b\")\n```\nCould also be written as:\n```\nif a < b:\n  print (\"a < b\")\nif a >= b :\n  print (\"a >= b\")\n```\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 774043864,
+          "name" : "Guess_Number",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 38,
+                  "length" : 130,
+                  "possible_answer" : "IcDwvJMy2EW9RD5BBi/meDtnYHUqp+/bOsMA1hR7ZNmP/yuNOkZ0dy/evqzVetSFIw8+ZClcxe9N37ptmY2trQ==",
+                  "placeholder_text" : "#print the message \"Please guess a number between min and max:\" replacing min and max by the values of the corresponding variables"
+                },
+                {
+                  "offset" : 185,
+                  "length" : 36,
+                  "possible_answer" : "UPpRFyBO3d0BplQcfQ3zuw==",
+                  "placeholder_text" : "# Get an integer input from the user"
+                },
+                {
+                  "offset" : 226,
+                  "length" : 51,
+                  "possible_answer" : "9a5aB+Ep+QmuYcdQhAT8yZ0JYfjvSam9P3DkFu688vMUHksAavqA9fN7t9XNP4JZ",
+                  "placeholder_text" : "#Check whether the player choose the correct number"
+                },
+                {
+                  "offset" : 300,
+                  "length" : 3,
+                  "possible_answer" : "/fMLg4I+Zcr3UpgWVHe2HA==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "9a5aB+Ep+QmuYcdQhAT8yYtoKS4Kkr87Abg38v6aC9nePR9/0yau3HA5RcZi+4E/jHVpP1arKo8YLpP759dSWq6smBuXa5c1VNnNRp6cMPl3/3AaookRsj3FtS4VmnjeiWeg3umZdkIDsFTPmANmWw7fSQm41C1DIYFWLnwUwWok+ciKGIDIfAkGPyqZiIhv0fFtmjC2vIC1kmNGLTIonGVPl2RasM6w/teVbBYxWol7SszJ2JlqC1g7zu1FvRWM08ch/hempEN6Z6McWgV0+4L6BpmmOKNglz+Pw27uicuCxJmGJQvzH26XhSKoJ2BECDjnEJVdh6+mrrvWXGK8v1NvKbwNbMavIxlWtkafUMniRAGC5wekAzNAfW19fo5mspvb0lQkJVN2NOA/gtGNCEj/L60n65FfaGvkqb15bBFKCuJj+BlBcLBBFzFWir04C+2n3hmxlq0X9uYM1Ef0BY2X8XH1+gTKz94AB3/Djbw="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Guess a Number\nOn this task, we will write a program to have the user guess a number that the program has chosen?\n\nThere are many variations on this simple game. \n\nIn our case, we will do the version in which the number needs to be guessed correctly.\nThe game work as follows:\n- One person (the chooser) has selected a number, an integer, in a specified range. “Pick a\nnumber between one and ten” for instance. \n- The other person (the guesser) must choose a number in that range. If they select the correct number, then the guesser wins.\n\nIn our program, the computer will select a random number within a range and will ask the user to guess\n\nTask:\n- Complete the program using everything you have learned thus far\n- Run the code a couple of times using different numbers\n\n<div class=\"hint\">\n  Use string formatting\n</div>\n\n<div class=\"hint\">\n  Use ```==```\n</div>\n\n<div class=\"hint\">\n  The else clause is missing\n</div>",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1827175202,
+      "title" : "Loops",
+      "task_list" : [
+        {
+          "id" : 2128764310,
+          "name" : "While_Loop",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "fF6E9syK5ntvcpXiLD+vAgn0VluEQ7LXxaWDwmJ+ilVjYANhLScBWv3WILU9KLsj7R2XqKHJfNlM3d4JNSJpCKw+yiHBWVus6XsCSqk3TdB91d0jEpZKwGisgh2cExZn0xjAf7l/nv9gyW3nUWDMHg6ke8orsjQ1rxJcia0XkOHvJWZjFXCYmFRH/IAV6RUGoeypsRGJet/00C1FkjzYYl9hOi8k6r+hncKSOcpa+nbUqcpOUf7b05hIAouLeUL4AmasiFNVax3olSe2/aNnl+u1sKQPmf1Q63CNTcoBah3f6+p+tg5RbcjvupBc25ZHz4+Zc6W2qZrKfE6rhm8WL8bhHmA1ul2G7ruvIbctSNbWuapmRZ5qWEcMiZKx1n4bS/S0Btwbr6P8AYLU5bkZv4tyrdNxeO/vk6c0YwP2hWRQUagg6v2Ku130YEfb/E11FtJOQyz1AjmXcEYEWNn3IX6SshVcL6YudMvK21B7FwBzPQDIP6YyDKA6YK13pBOPuwWc7pYGMd3i1mKjePkDXoZWVGcCkrCjlhFCkTO3VS2EHL+Y3qAolA8zDz1oM9j6Mr0+0LxRoJZ5EErIw1ZYi8F9+0mshDS2qI4pvjPgicM="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# While loop\nA ```while``` loop allows you to execute a set of code as long as a condition is ```True```.\nThe set of lines of code to be executed is determined by increasing their identation level.\n\nIf the condition on the while loop is ```False```, it will not execute the lines within the loop.\n\n## Structure\n\n```\nwhile condition:\n    do this\n    do this\n    do this\nthis line will not be executed\n```\n\nThe set of lines of code that are part of the while loop end the moment a non-idented line appears\n\n## Example\n\nThis is an example of a ```while``` loop \n\n```\na = 15\nwhile a >= 10\n    print(\"{} is larger than 10\")\n    a = a-1\n```\n- The condition is ```a>=10```\n- If the value of variable ```a``` is larger or equal than 10\n- Will execute the idented lines if the variable ```a``` has a value less or equals to 10\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1383321638,
+          "name" : "Infinite_Loop",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "NKq2ihtZG5Wg8uqvWhN/XoIvG+TV9ArtAqNcFdW8Ak03AEej2OwHl2yNI9UYm4EoWgbWcorWTrlP7Van8xwsQQ=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "This is an example of an infinite loop. It will never stop.\n```\na = 0\nb = 0\nwhile b < 10:\n    a = a + 1\n    print(a)\n```\n\n\nThe loop does not stop because the condition b<10 is always true\n- The value of b starts at 0\n- The value of b is never updated\n- b will always 0\n- How can we fix this?\n\nIf your code enters into an infinte loop, it will NOT stop until:\n- It is manually stopped/killed\n- The computer crashes\n\nTo stop the program in PyCharm, you do NOT need to close out of PyCharm.\n\nUse ```Ctrl + F2```  or press the suspend/stop button in the bottom left or top right menu ![](https://intellij-icons.jetbrains.design/icons/AllIcons/actions/suspend.svg) ",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 813459269,
+          "name" : "Guess_Number",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 20,
+                  "length" : 38,
+                  "possible_answer" : "WNO1H1JBhpOSNYYTvprKM2LpDL3/zLJtYal+LVOp8Q4=",
+                  "placeholder_text" : "#Initialize the player_choice variable"
+                },
+                {
+                  "offset" : 122,
+                  "length" : 3,
+                  "possible_answer" : "WQCJ6AdMRhfw1M34OBbKGm/okcEvon31AyeJhuG/sJ27fafOXTos6VWJ5xu9aela",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 199,
+                  "length" : 72,
+                  "possible_answer" : "WNO1H1JBhpOSNYYTvprKM4kUk412ajtxnK47v3j+EFc=",
+                  "placeholder_text" : "# Update player_choice by assigning to it an integer input from the user"
+                },
+                {
+                  "offset" : 358,
+                  "length" : 53,
+                  "possible_answer" : "jgJIBnrdFMl1J4Ccly1A5AHhrsMXE8XNyFE00KgloQzuWTIPA0T7UxMBh6wAkwGc",
+                  "placeholder_text" : "print the message \"Sorry, not correct. Guess again: \""
+                }
+              ],
+              "is_visible" : true,
+              "text" : "9a5aB+Ep+QmuYcdQhAT8yVg8sxYem0P2xz6sQh9N/ZetoVoDy6N6Q6DBe8erA92Jzh0ZpNZncEU/2uw7Lla03JC5b57WVyXg8OY0Zq52xstHSAlArunkR4FmKAuwUdfpX6ynWrVp7WSaCbC+7Pbx05j5zI5WfxEd55RHC1oGzi4/0FONax4NfMf/SyKa6Mam90xUfvQw55H6e35kzKFWGd4zYjQAbyzDDSN1fJdy1Zs6QUbFaigMNJC6qf3WpjtWSDKmSBfYPAMjEbQkEKW5IJK6xCCta2aQz/CEyCmeeUgWJ0kQgzipqvPWRTF4EIu4Aa64Zm2RUX4plUfQGV4mFXZ30OTgVIPYwLzP1R7LdVY7n71gGYOOe2xI6ZBc3NQDVMTeXXj83DVqHvDZ7o82kRTuZLZfp4QfpseLg3fNhqvlkGgUTQe2YwZWjVBq2cKDy00+Sg1QdkrlyBb0mkZMhpRN/ahtQ4U6lnzI4ZUojaYbbSEtxeP18HxvHRC/FJFcNwe4ElgD+Rm/C4SV0WrQvj+t0iZ9+vXWvZyJJHwktL4="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Guess A Number Revisited\n\nOn our previous version of the guessing game, the user had only one attempt to guess the number. The user reviews said the game was frustrating, so we will make a new version.\n\nFocus groups said that the game would be better if it allowed the player to guess again until a correct guess was achieved.\nWe will revisit the guessing game and allow the player to continue guessing numbers until they get it right.\n\nNow, the program will continue until the win-condition is met\n\n## Using a While Loop\nSince our program will continue to ask for input until the user has guessed correctly.\nIn other words, we have a loop that should end when the player guesses the correct number.\nWe can use the while loop. Next, think about what the condition might be. \n \nThe condition is one for continuation of the loop, not termination, so the loop must be constructed in such a way that it continues when the condition is ```True```.\n\nThe condition in the loop depends on two values, computer_choice and player_choice.\nTherefore, we must define the variables computer_choice and player_choice at the beginning of the loop.\nWe must also initialize player_choice in such a way that the loop runs at least once.\n\nTask:\n- Complete the code using what you have learned\n- OPTIONAL: Create a version of this game using less lines of code\n<div class=\"hint\">\n  start the player_choice as a wrong value\n</div>\n<div class=\"hint\">\n  use input()\n</div>\n<div class=\"hint\">\n  use the == operator\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1371882462,
+          "name" : "GuessWithHints",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 93,
+                  "length" : 11,
+                  "possible_answer" : "JFCs3HeRhhqoG+4cuS2Glg==",
+                  "placeholder_text" : "#Set to 100"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "9a5aB+Ep+QmuYcdQhAT8yRl2uY1tsp6NH+16651/ncgM6IujPbYzuCXEpFR2aqlMxZ93iAtjIHitJJk42+p0PKYqPYUsQw2Mo7inKqBtlRk+cqpGUn6Bw1vhDC2RbUmCQC0CgXXoYr5b/mcpErbW+8lAqS1EU09VR4rdhW0oPfRoPFAB8kmAuxbr/6i5RiD6XC61wjC1c91tL/Qr4UmfvdughdtUwf2r7Texp2YfCDG7Dlj5wMsQPzT1NJUlv5R1gli9ibwYbL/UcaJDIf//gHZ4EJk5zrMVJJOXN9Wo0AzgnFrQjJPwATuz2LcV0Ir9c8H4Acwl/7un58pLS9zakQRHZFGcEJpy/8ytjicHpcqT8BqE9yR7ZeAeC92YiE/o6fsAH2eCM9w7q6D4mOEM/WYyYrcCogcqHN0GhL6Exq7wPsioaKjxJ0WIA012uY/jDH4Lp+0LiUy8barcCNH4nh3jH81zY5XYOcWZUUg3PPmZ2z2wi2d5s/UwwG1MH+IU"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Guess A Number * Now with Hints\n\nOn our previous version of the guessing game, the user were gives infinite attempts attempt to guess the number. Users expressed that they would like more feedback from the game.\n\nYour task is to:\n- Create a variation of the guessing game that tells the player whether their guess was too large or too small. This will help them shrink the possible range of values and thus guess the right answer more quickly.\n\n<div class=\"hint\">\n  Use <, >, and an if statement\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 147943502,
+          "name" : "Guessing_Game_PRO",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 122,
+                  "length" : 3,
+                  "possible_answer" : "D6TDSEH0Lr+SN+3xUSq94Tt+8x/lXOJVN6rLHH9EAjE=",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "qfsGgOCumdmJ4tbXi5aT9UzbueF3I2t8oP5E33HT8eVZRn9mrmnx7IxMxZsT6P09OwTSUrTJtgM2hHFXRanTlnqO+cRqJuscrCInn1NNXWsW0ywWVjhl+wnvNKUl2i9vpOq31ccjbKjmH2R+gMH4i17BdEwD7ZFSSNlfH0jkkvNy70uNmsRVyO3D3AqBaAdKvJPBxaGX8ujcCwXUdTkcUxQokko0FbJyVoSmquib/os4Ky3g7hYd2LRUSnT8LmD57q5L5hWaxlDz/2T7osfIB0r751Jyy03QiO3jHablK++2cXXqubsBOxOpV5223SXpE69gwVPzIYfVQg/IgT5HB7ZuyzRqXkubiJuw3DRmLa2BOziui+72kRDgpNjVwbDYCqfKY/lvsPrMHTFWtRXfm/n8BI7WuQrL+Kxgqlh9nzHu/Z5viG8uUn69+qZeHhtXHfiplsIwSV5MDbJiCWwwOygIimF34Z8TfBmjKP7OwrzhMSeM0IVrYnFMnqqFBVIXXZ8uDJ/EROihO82myybxDbuBR/7c9towuXnnzZhwElfu7wQHzyKwaZbuLl3PwVV2Cyn4oTObXX3jt2KLYl22RYlu9Sp37fIeDDWm78Vy8RHIWD9dTPo/7UmQ8kcMBdgOBa9jcCD6UihKPbVOpB76OuXg73r25qyg73gjjwbyigg09GAhUsnExE2kAamkpTmo4GiX354/TjiqalWTx7XA8Q=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Guessing Game 2.0\n\nAn analysis of the Guessing Game shows that the AI selecting the computer_choice in the guessing game is not very good.\n\nThe problem is that the current version of the game always chooses 2 as the computer_choice.\n\nTask:\n- Modify the guessing game so that the computer_choice is random\n\nTask:\n- Count how many attempts is takes for the user to win the game\n- Upon winning, print a message telling the user how many attempts it took them",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 2044249171,
+          "name" : "For_Loop",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 246,
+                  "length" : 3,
+                  "possible_answer" : "LXO2GjAoSxHXhsAE2b39Gw==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "utRlDM9WDu6N2T8zRasK1MLGIpSCippE6OWd3WMSZzEUFlwTj1SICUy/g0RNkTIqN8/EHeGCJdvFMxCtIsYYrEHRpGBDvtire2u/CNmBTnSPcmjQqgsZyT71ziLE+4rLPYxPk/NGm4AQZ8otJv0MBfTtWTITdmfy7ZGh0yWSoUvWSwtgyix2kVnH1amprDkM0kDIjE10TP/wuS7nLCpNKwNELhAn00XEdtI3AuGn08rQsOpH2VmZ3xTrOHNZ5wHZJpWibJhBf1alpUeS6Un3HpINi9Fnqf777gL38WWj6ooE3xuEqhuRpp1sUheyH6cezQSE2Pjnp65RfnaLtFzoQiFp40dMa234VFfDOrko40g="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# For Loop\n\nThe while loop is in fact the only kind of loop that is required in order to implement any program. However, there are many cases in which loops need to be executed a fixed or semi-fixed number of times. These type of loops requires you to keep track of how many times the loop has been done.\n\nThe ```for``` loop is a loop that supports the type of loops mentioned. In particular, the ```for``` loop has a control variable and a sequence of variables to iterate over.The for loop iterates over the items of any sequence of variables in the order that they appear in the sequence. \n\nJust like while loops, the for loop executes the lines of code within its suite at each iteration.\n\nTake the following ```for``` loop for example:\n\n```\nfor i in (1,2,3,4,5):\n    print i\n```\n\nThe loop above will print the numbers 1 2 3 4 5 each on a separate line. The variable i takes on each of the values in the collection provided in parentheses, and the loop executes once for each value of i. \nThe collection (1,2,3,4,5) is called a tuple, and can contain any type of variable in any order.\n\n\n# The range() Function\n\nIf you need to iterate over a sequence of numbers, you can use the ```range()``` function to generate an appropriate sequence. The range function generates arithmetic progressions given an end point. The given end point is never part of the generated sequence.\n\nFor instance, ```range(10)``` generates 10 values. Namely, it generates the sequence ```(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)``` which would be the legal indices for items of a list of length 10.\n\nBy default, range starts at zero. However, it is possible to let the range start at another number.\n\nFor instance, ```range(2, 5)``` generates 3 values. Namely, it generates the sequence ```(2, 3, 4)```.\n\nYou may also specify a different increment/decrement \"step\" in the sequence.\n\nFor instance, ```range(15, 2, -2)``` generates the sequence ```(15, 13, 9, 7, 5, 3)```. It starts at 15, ends at 2, each item in the sequence is decreased by 2",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1728284555,
+      "title" : "Functions",
+      "task_list" : [
+        {
+          "id" : 1713345950,
+          "name" : "Type_Conversion",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 108,
+                  "length" : 43,
+                  "possible_answer" : "pVh8rvCjm0vnv6Tuy74XAA==",
+                  "placeholder_text" : "\"Convert the variable number to float here\""
+                },
+                {
+                  "offset" : 413,
+                  "length" : 44,
+                  "possible_answer" : "UsHwocaSwLaBLhXjmtt7+UIqvg3hjN0XLVtAefSSHSQ=",
+                  "placeholder_text" : "\"Convert the variable float_number int here\""
+                }
+              ],
+              "is_visible" : true,
+              "text" : "HskHJXv7+nxwXxX70vNEMmTpj83MndjFE5B2mjkGivvj5Xdxji6+S+kw9i6bwpMTcApjt4BZwW+MuV9oWso/k6lKI2epcMrruDcUQqYc4C0D6295uJZyZl8PBXd+1bQf8y+vheYrMdc4ix71oaFxMRxlMkHa0IAjOhBCEqvd+4GzGoBvjrY6KUfTV//uUvgRArq4y9KJ0D4j4q6yMRu+zrtpvEamDKYAjfUTWuUFGcAYDDkXH8ZsT1r5bQy8aml6G2ChEk7463m2qG8KOk1p0KcrMD2rAJSSdTuaLPVz6nSe0BoU3pWXuK0CtvN/PFzlABTr5AiQUXT/OwvMUzCdDOWGudhfODEvT3xbKazQy/axOzEOIfWkDkeRAD3EbUJk9LhHLc7C5DtPMYtsWYlSpbeMToUvC+Nt7kJh9U727kZ7MOETjfC9zuW9LgRKUn4w8Lcsk4/cXQSXKTZ8VOBVDM0ECtmliDF1cXHstn+k6r/w0uEIxKJ5egijQe8eOE9/VMypjDr3WJXka6yygLlZFyMgRddq2mrKdmwPxx9U5TPpPFrIlzq1KbShdUv8hOtr4urfnomvjgfjAOFzwaYCZexiNTlZ8rYQYdreMg4ApWkQr101DmsO2XuP6+urZ8HeBZywxOp7MVVBv3GiXYs8kpnJpmLZrYD77b7mDEjmk06ClZLP9QsUCspnejbuf7DZF320deb90ZyJEwtuHq44mw0cEoItCtwCADwfOYTLr/v9o6a561aOZ1RqxXCSMbKU0db2zAUhIgU5IQoGx2jAOul1Hd5JlG/3WXaRj4RWtKk="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdRqRA4MX0EECwduvDkwQDjasVemnyjSWLGVo7PDgycShr2utWAN9Pq9Q9WgoBWBF+fnxnZCDqJjVnCw5VuswtQxTS9vsekxKwIizH1qSVm/iXEywInCQLmHyy/R9p4IFUjwChHQ4gAXf4HPn5qNm4Vo0U32hTtubDf5LfdLEVybw4NTNYqICDxKlVF9+/a2CtR8Gevwhsx1d3y3PNau9pMGvNqNbD43ch9QoRQp7P6ukc/JE3xtvQbSyG+FA2G6pv0ot+0BMfUzMXz5bb3ssqZBNUEdZke2pODRQPJX9+WZTZA3y88ns2tjubFj/PUN6GPAIRdHe56q6MfTSpyTO95KHLgBQGYCxO4rynm3NPghxEouYS9DIj/q7rBZWdf62/GJrwdPTM1ipQUUCKTQlM6qeSoBdnBz1XOgIWjc7Udo3BOWzOW8oBfjz3/bqsTug6bh30LRUZRXy/rD2dGvkanXmWj0+DaFSg6GkVNkRm8uhydGI6OXgt66Sk/BWFFlZMSxUmGRj1WXk0E/0QUtVTw8="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Type Conversion Functions\nAs we have seen python variables have a type. We can use the function ```type()```o determine the type of a variable.\nFor example, ```type(x)``` will return the type of variable ```x```. \n\nPython provides a set of built-in functions that let you convert one data type into another. These functions take in a variable ```x``` and return a new variable representing the converted value in a different type. \n\n- ```int(x)``` converts ```x``` into an integer. \n- ```float(x)``` converts ```x``` into a floating-point number. \n- ```str(x)``` converts object ```x``` into a string representation.\n\nTask:\n- Complete the methods to convert the variables to the appropriate types",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 301430781,
+          "name" : "Functions",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 177,
+                  "length" : 21,
+                  "possible_answer" : "FxpuW/XrZJEmJ+ZH/EQL4g==",
+                  "placeholder_text" : "# Call say_hello here"
+                },
+                {
+                  "offset" : 296,
+                  "length" : 64,
+                  "possible_answer" : "EguukLQ/1i8NKhNIiyST4ghT2OCT+pToNOpVz16CH+0=",
+                  "placeholder_text" : "# Define a function named \"fun\" to replace the three lines above"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "boaBBEtKT3N5XzDJYGkoyBrGzwfkNJmNtd+eUW7GKvD8tmP2FO3IPjYZL2PUHi3Jux89RBQ7A2m48oD4my8dYCWyzkjPFA2PjZH39BAKwdN8nxvlLIsB0AS82uWMwWOH7HP7OTueNiikzrws6r1/bbNbCyaY3Wb286TGkqbw29wY4HBfCfHPDNfA1m03vtzonNV+tx8eGJcL79EPo1eexy0X17BSoCzaAxDo54nQ0JgHCdiNxOSPa/IeT2SHRrdTEd7exkrn86TM285CBrL0PYi8CvJnbFTA0m9YIB6AINOd5Jwh5opOAF8LRYf2WQuKcuNo4SA8ZuNvWSBW3UKknhHYGyVy56/VfiaKKZ3LRzpY9b0TFrV+hnTZogVdEhdu0ROafYbveo16yuHyhUach7G5Ze7uZBjPznFzzttLXRn1ej4Dtcvj6e6fHS2XsE1BnuJ9Bh8da+AlQF4bOX5YNroop2d/S5WJbO/Whd64j2UdKgdptG7jTI6+9VKv9uIn4CbKQYQUyPLs/heYIuEXeRetA5H43euSkiPhc9vuR31xIoesFijjPlSgsP5zmnS3ntRK9K9DOHmHXy4cQE6mXehRaOU50cmONbY1cqAS3cg="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Functions\n\nFunctions are a way to divide your code into useful blocks, make it more readable, and reuse it. \n\nYou define a function by using the keyword ```def``` followed by the function name and the parenthesized list of formal parameters (which can be empty). The statements that form the body of the function start at the next line and must be indented.\n\n<details>\nFormal parameters are enclosed in parentheses; they are the variables defined by the function that receive values when the function is called. The list consists of variable names of all the necessary values for the function. Each formal parameter is separated by a comma. When you have a function that does not need any input values, the function should have an empty set of parentheses after the function name. e.g. addition().\n</details>\n\nFunctions only run when they are called. To call a function, use its name followed by parentheses:\n\n```\ndef my_function():  # function definition\n  print(\"Hello from a function\")\n\nmy_function()  # function call\n```\n\nFunctions may return a value to the caller, using the keyword ```return``` . You can use the returned value to assign it to a variable or just print the result. \n\nIn fact, even functions without a return statement do return a value. This value is called ```None```. While ```None``` is normally suppressed by the interpreter, you can use print (E.g., ```print(my_function())```)\n\nTask:\n- Call the function my_function inside the loop to repeat its invocation 5 times\n- Define a function that can replace the duplicated print statements in the file.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 709739106,
+          "name" : "Built_in_Functions",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Built-in Functions",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 6446013,
+          "name" : "Function_With_Loop",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "XEQuXU1rsYg3oQPm5eSAnGKcFU+WDufJh+IrRjOrxBTG1VBOLIGCV2T8d4Y9W98823R4qTNGubCnhoojlFG1ZGg8l20EFHroT83V5Bjz8MM8PghNQPWgkEHDJoIRNGmGhkiIJtLrCfaish82IjknK9kwE0EAaANEvttoPjdU7shTGzhOW1CbSPKve17cJEi1EXX2w3CZ64sSZD6PWqZ2dtQrWnpyenCgqzx8pw2IZg21IuY4c1vUJ+G52TksMXB/dhPZQlKOEJF2BO27zPPq7JpcRQAYd4eI9VnnV1/c2Xn/OL1QI/j7pPRcARtD1IHiSj9Wxp4JXdomTPYI3+CrXyvPiOTvFGTGMcdhRJWiD7GowQfdXbbMIwQMcIRTiN0A+jg0oQverDFgBIG/52YzejEkITBmCg41BNIJ8XoH/h/9NdwkgYyhOuUXFIV1Gb3bhUeH0Bj+RNQ6UMic2RQ1G/2tbtgJQ+29Iw29Z/sjEm8irfa0QUPIQY1DSWfUHOqDGdl7RhGS9qD3R3ay4fv2IhWAQeO1yRaV30fyHrWFBoUr3fuM/4Pwm+z/sqBAoo/UqYAmH1V6Wp1YN+uLdAHwp6Wan9DS+uH+Lzzn0cOc6orYJUKKwdIMQyLLbB+P2K8YjD/KJEa2vlzqmNHsradL2AD9sbxfKApIid6dnq9MwkGHqSC9N1d6vwmHkXcfmUPvFzm4rA9uCYePw9X+b90ropAZtpC+6PjKAhoJ/26O2becR5rLivgeQXOMbVIoX1RNsGxlTkLWvSPtxQqpxGpfY8jOjtI8sxZOlBXkT3EKcrHfrO7ZIsK/OOwI35Og0C/f5sx099j8aC9W2ffKtOq3NGYBButAc63ZkkxTRGGMsk0af7IM4VCVDYRnHNLTTnycFuP5spHrkS+fE24xb4XtUg=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdVsx2RDxTQS28qtt3tRAOjss7HqQnrKmk5Bpj/8/GUDxuzcMeFmMuHWg3WO7Ue2g/KdXu3oEHx5s20hM9poFIb05/n2d1R2WCW1CKw0VZTds7+viWh8vPhvTX4AUXNI3UuMfpHU8RwfqbcajYGCYbrAF14QajcMjzR05MtNSy7dLxS2cD/Lw25c8A9dvNhow0kfUYMeKlW07nab5oxjVJBtrR72i8hv6fgcV6bpCgxVqX+VI0QG2mT/nAnuMvRdaGGpPa4u5q0ZqfqIxDMnUGCGeAFlBuOy2nPPtmolzI2w1VPVbUk4+VkkrsREmT3g+Ew=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "You can put any of the code you have learnt thus far inside of a function as long as the code is properly indented.\n\n## Loops and functions\n\nAny loop can be placed inside of a function. Since the code within a function must be indented, the code inside a loop must be indented to be both inside of the function and inside of the loop's suite.\n\n```\ndef ckechout():\n    counter = 1\n    while counter < 5:\n        counter += 1\n```\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1374535494,
+          "name" : "Random",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 367,
+                  "length" : 3,
+                  "possible_answer" : "T+55EPm3knuSUL3k02iUQA==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "qfsGgOCumdmJ4tbXi5aT9RQ5bUEc8JlQay90932Wq9dDB3QbqTLkcWUkDRGZtonA++Vn0Y26hpCB2IVbMk6IUTy90Ke0/+wmt5Xlx5gZ3deykSDi7K5OaZc5PGjztcT1p4k1TYJqnat5oClO1tCApAxs2o5wIwwUe4vHokHCCU3rcz6EG7IQdV/fZVhXYMJsvWBHpYjFLltEgQhC7pCJPKFMK9e9n5wzfrKy7rRrdrRqVWs20qrGd+mWymtTJX9t6xhWswzgyK7M+y9NZwA/PMAm1Z+SavrRxtbLNkpRaLYXcmlemc/DYrmGYCR6PdFcmLZ0mK4qLNraViVi0vMHNc7eQsTRBTFk6vKIHXQStYbEVpPaYyPJD6UoZoTgf1APKIbZ0o1NG7dGRx+sO2KIKjtalqdYU5Wun8iaTk+eTPilFEd864ixVKEgTfyoAmDQ++DMFlmlYjZOOGYEakhz6Gv0XlDgI+e2Hb7txvjNb9xfB9rBrd4wFcpigM/hGMdHtJOkX2Xc8qOsxa2CPji7qYitGa/RNiqIFoYv6KUbhIkm+3w6TDgMwkhtjCMflhu4vveIlbrnIfCvbViJFuWCjg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Random Numbers\n\nMany depend on an element of unpredictability or chance. Those that do not might be\nmore properly called puzzles. \n\nGiven that computers do calculations, and that calculations should have the same result every time, how does one produce anything that is random using a computer? The answer is partly in how the term random is defined. The discussion involves some mathematics or at least some basic ideas in probability and statistics.\n\n\n## Python random()\nIn Python, there is a function we can use to obtain a random number generated by a computer algorithm.\nTo use it you first need to import the random module\n```import random```\nThe random module provides several functions to obtain random numbers:\n- ```random()``` produces a random float number between 0.0 and 1.0\n- ```randint(a,b)``` produces a random integer between a and b\n\nThen, you can call the functions like so\n- ```random.random()```\n- ```random.randint(1,6) # A Dice``` \n\nAlternatively, you can import the function you want from the random module\nExamples:\n```\nfrom random import random\nx = random()\n```\n\n```\nfrom random import randint\nx = randint(5,10)\n```\nTask:\n- Generate a number between 1 and 100\n\nOptional Task: Obtain an integer number within a specific range using only random() and NOT randint()\n - Hint: It involves some math\n\n# A Bit of Probability\n\n- If integers in the range 1 through 10 are considered, what is the likelihood (chance,probability) that the number 5 will be selected at random?\n\n  The answer is 1 in 10 or 0.1. This is true each time that question is asked. \n\n- If the number 5 has just been chosen and another number is to be chosen, what is the chance that it will be a 5? \n  \n  Same answer: 1 in 10 or 0.1. \n\nThe  principle is that the next choice does not depend on the previous one; it’s a part of what makes them random.\n\n- What is the likelihood that the number 5 will be selected twice in a row at random?\n\n  The answer is 1 in 100, or 0.01. but why?\n   Because to get two in a row, the first one must be a 5 (1 in 10) and the\nsecond one must also be a 5 (also 1 in 10) so the resulting likelihood is 1 in 10*10 or 1 in 100.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 64025254,
+      "title" : "Lists",
+      "task_list" : [
+        {
+          "id" : 381789917,
+          "name" : "Lists",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 113,
+                  "length" : 3,
+                  "possible_answer" : "ZnvxBNjCe5Nx5JO336bOBQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 118,
+                  "length" : 3,
+                  "possible_answer" : "lKTBwXm3p+Q2pYfbRHgLj6CWqXWQxn72I9fI37NJXkg=",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 213,
+                  "length" : 3,
+                  "possible_answer" : "60c4BDIsHl0hIKY6nnyFog==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 217,
+                  "length" : 3,
+                  "possible_answer" : "CnrpYNPY09GV2HWX8/SdSw==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 295,
+                  "length" : 42,
+                  "possible_answer" : "54gSieGwFYQ7IpzUFNSa8YMNTJFJgp2otcd4rHhMOF8=",
+                  "placeholder_text" : "# Replace \"Iron Man\" with \"Spiderman\" here"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "EeFE4Mq055z/Dy+SraEOO8JpJ3TpqoWIP2IkikazQmBY2HfJrXQB0+EG5IoJqAoNmWzRpQnUJo503mY0vH/7rhHdtBpVKDzKXR+Tl1R0aMvt41OrbsKNstGSfMxCzwtXjYu2EcoPJHW2Iwyxe369Zx907NHiPQuNP0GAi1dvbj/ZGvkuh18ICXyt/cGwQfv4qLBKnlcDzrpj7klTUUeDSQicJyN9sarsLRHDtBU0n5xUKRSSQ+m0klX4vpypYIWM2yrYO11Iw0hRLdXtBPWaPz3lTZElYanaNnlMjILPBqjyuGkRWsz6MBbWT6bvlXQIQYdAlWmKbM+OeFsSEbFFol7q5enlEX9cOtLWFwf0ySTlVPV/76Je2JsyUvPErhbsCGN/EdCOaHWj0UsHOzxCrapJZAjqKR+YAw41U/QdAPz1byedU+wdWtgzp1ydFFPustU7GJ53kt7LzhSK3q6x1kMgSHr9uDa78EBpJbPy6U4="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Lists\n\nA Python list is a variable that can store multiple items. You can access any item in the list by using it's index\n\nThey have many properties of an array of the sort one might find in Java or C, in thatthey can be used as a place to store things and have random access to them.\n\nA list can be initialized by using a series of comma-separated values (items) enclosed in square brackets.\nExamples:\n- ```lst = [item1, item2]```\n- ```lst = []``` # An empty list\n\nLists might contain items of different types, but usually all the items in a list are of the same type. \n\nThe content of a lists can be changed using their index in square brackets ```lst[index] = new_item```.\n\n```\ncubes = [1, 8, 27, 65, 125]  # something's wrong here\n# the cube of 4 is 64, not 65!\ncubes[3] = 64  # replace the wrong value\ncubes\n[1, 8, 27, 64, 125]\n```\n\n### Wait a Minute\n\nWhy did we modify index 3 if the wrong value is at the fourth position?\n\nThe indices of a list on python start at 0. Below is a representation of what the indices of the cubes list and their corresponding values\n\nlist_values = [1, 8, 27, 64, 125]\n\nlist_indices = [0, 1, 2, 3, 4]\n\nIn general, for any list with N elements:\n- The index of the first element is ```0```\n- The index of the last element is ```N-1```\n\nYou can add new items at the end of the list by using the append() method or list concatenation.\n\n```\nsquares = [1, 4, 9, 16, 25]\nsquares.append(6**2)  # The ** operator is the Exponentiation operator\n```\nsquares is updated to [1, 4, 9, 16, 25, 36]\n\n```\nsquares += [49, 64]  # Add two items to the list using list concatenation\n```\n\nsquares is updated to [1, 4, 9, 16, 25, 36, 49, 64]",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1073295834,
+          "name" : "Rock_Paper_Scissors",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "1IUIv+TPraiOBwiF56YSZOucPCbJ40QmnF3Mwvfb17Ucf0o6sJILEHHED6GaioLV"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Rock Paper Scissors\n\nOne of the taditional games used by people to settle disputes and make random decisions such as “who goes first”.\n\nIn this game each of two players selects one item from the list ```[rock, paper, scissors]``` in\nsecret, and then both display their choice simultaneously. If both players selected the same\nitem, then they try again. Otherwise, rock beats scissors, scissors beats paper, and paper beats\nrock. \n\nYour task is to implement this game.\n\n<div class=\"hint\">\n\nUse an integers instead on strings to represent the options in the list. In particular, ``` 1 = rock, 2 = paper, and 3 = scissors```\n</div>\n<div class=\"hint\">\n  Use a while loop\n</div>\n\n<div class=\"hint\">\nOne approach is to do the following:\n\n1. Select a random choice form the three items rock, paper, or scissors. Save this choice in a variable named ```computer_choice```\n2. Ask the player for their choice. Use an integer value, where ```1 = rock, 2 = paper, and 3 = scissors```\n3. Read the player's selection into a variable named ```player_choice```\n4. If ```player_choice``` is equal to ```computer_choice```\n5. Print the message \"Tie. We'll try again.\"\n6. Repeat from Step 1\n7. If ```player_choice``` is equal to rock\n8. If ```computer_choice``` is equal to scissors, Print \"Computer wins\" and terminate\n9. Else Print \"You win\" and terminate\n10. If ```player_choice``` is equal to paper\n11. If ```computer_choice``` is equal to scissors, Print \"Computer wins\" and terminate\n12. Else Print \"You win\" and terminate\n13. If ```player_choice``` is equal to scissors\n14. If ```computer_choice``` is equal to rock, Print \"Computer wins\" and terminate\n15. Else Print \"You win\" and terminate\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1388181045,
+          "name" : "Best_of_N",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 130,
+                  "length" : 3,
+                  "possible_answer" : "UPpRFyBO3d0BplQcfQ3zuw==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 212,
+                  "length" : 3,
+                  "possible_answer" : "pOFxq+VTymWmt5O+IDuWdQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 347,
+                  "length" : 3,
+                  "possible_answer" : "GZTm9wsCdauo4ACRnuiIQQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 543,
+                  "length" : 3,
+                  "possible_answer" : "7Wv+S0/gr4/qhsKnO1S70Q==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1011,
+                  "length" : 3,
+                  "possible_answer" : "MMVxjLzPw28xOxbBLoczVA==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1123,
+                  "length" : 3,
+                  "possible_answer" : "ifxfpuoHxr4XlFUPJfhaBA==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 1420,
+                  "length" : 63,
+                  "possible_answer" : "VVI4X2FbSoATxSNWINx6Ksc2IZBagiAqGQ06xZL719o=",
+                  "placeholder_text" : "# Add a for loop that executes the appropriate number of rounds"
+                },
+                {
+                  "offset" : 1586,
+                  "length" : 47,
+                  "possible_answer" : "62olcPpU+2wt+nrk5pKfb02/zDaQPOxnRV0GJ3BZX9E=",
+                  "placeholder_text" : "# Update the number of rounds won by the player"
+                },
+                {
+                  "offset" : 1657,
+                  "length" : 50,
+                  "possible_answer" : "UaofBnMM7ms8lgOQc8ivBrS1I9Kd051tal4g6ahTamc=",
+                  "placeholder_text" : "# compute the number of rounds won by the computer"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "qfsGgOCumdmJ4tbXi5aT9QiuF6cmM/ESWk4h3hyhMC1P3l/KiBpXQaLG86GWhxm4Iey4PoT/7G0heq81bC+mqvA5RjLyhZMSyUgZ4v4XZIOUhHPrAxg2QKskHbdZ9TpeOGHrxcgANjdfKC/sRmu0XejTucPapBYIBkWTIm4fDkzo/QCGHtPxVulIrbAb9+GJbYVAexF152LxnsIEEqFPTuRxHlQevEI7Pia1DtHjfjdgr8EeErTFtKv2pLKAE4xSJJChBwowAM5lZNiNFADMf7+QWdGQfYYnYalvJpd66jGxfELNprJqO5Zwzqr9BMmvXJdcYnRpfq2CsbnuRzzDS5eay1LgHq8AUOS/UsNczV790sAmg5Mdg+MmA2Ez3n8KT6MT8FX89dcDPKAvM5iPlzEE/ZvOfJ6QabKDPZK2S65TJ7Dcdv9xONlGVGgHRkSnZ32tT4QAVn4OXvntwyx8BnlMnGHnmmXE7Xm9RJ8tJ9aOQ45+feTN0hB7qhfFcmZ7oQyGZwsKTUqKV3rQhm1j1mPfW2MqPLd9mmJ6h+yu59RxboCJz+TVsDtTSLM7myeEvq/o4TJtCvFMoCLpFS0VHWCZsFaCBMjC/1ZlwqRy4wDXEj8kbITGMT54VQ0UklTyuQq8NylfqabXKA/VXkB8iPwzvRvIYByzSAaDclZQxqpfwPy0HiMY2wTzvQK7Dx6kcCa+3I5jRTpTKklV/5E9kgOJ2PCP6AWmc4vXU7jmXtxWLyzQmyowRTWk+vxD0awXjsmsB9Xu7tXDRZiQWmM2w1cUOwg/OLW0DDbndd6SXvK8+FCqCphFsQ7VlfRD1VL/H+aPG8egNtiI7a4XDOpNPhLiWJj1NIzPEqKIarfUcemvDiMtkm5y1xJTZ8wf3qGoCsbjOA8Jm7XAB9Z2HoZDpNwXc2ck86U3Ovb8cUwlzAcnccOsjzDfPL5FLVT2rLPack/cLOQxHLKj7BhYBZ52Q+XtUJUUYmFLSH2cZdW9xu6HS9IOopnSZihsetkwY4KUw4n6yIQgqxeGKxcUCEJyXvXJhv5v2utj9k3ibugB8V8GPhRhtfwax/vJniXAmGFYqpuht38ttUZC/7ru70AMsVCTdXD+FpOqKl7K9oXBLippHnkZMtduRmouWmpeXBnQYLYW+L9hcZ5wKhBRQYuT+8AGa2eD2VW2m0m2yhzA3A5wYjtZwaaiTk/x8Okg07prEOV8Du1eciwKDHRhN19HT8wxEevwjlSJlr8//WcXLbPN8BHO1xrKoMPtt0vRts4yd7bOboIUr5zD99V/Nqr/FyCd/8Q6y3hnx/YRC3cfoX6y+drLcs7RLP5HEfSwxgRckw2u7Sp8mFTTLrb4NF49uVuD0uyIRPQqmlqJcvcGk/vuaKR2j5e1dgK6PC6OyU42VUzMR98EnGCwziYbI9fb4BR+61kB/zlxspWasT8xrMRP/Rrq+BRtOiAi3eD6mJwIN4rhx33ju9iUqbgeFGaD5rboKVvz5HnQa3032JbvcKGnxXT6usXZ8v8w7oaxS/XYgxT9yjl/9N9T0cLOakm+qNM1NVRNJeLX5l5mzvVoqPSS6+ychT3XGfs4EJtj4Am4y2qO7+7GQX0k8pXp+GXT06xBLpcfcyOlI9kqZRnO5ObGZAhOS1l9GE/GPd/Kf+WXIGwZ89pTMAk3HhU7BUTTVeW+3Ai/vXlrU+m7TyFygLYFRFRP2KcQYGNeIYT0Iaiy9bjZOKy/0PqRT8kstDWlCEZ2WznRBvZiXyEFtxQRkldnH38mENfpwCByCZF5cl9KzsM/oKNPL2B30XKupJ9g10ryGhAbs6pyDc8mbQN1Ae0W+wSvYCVi6NlSHYa5HTSB70DGBC6Mw09i5ioJAFVWa/NQPQnh8W4I3/wZol2O7bdG6yzbrS56snlcXEfa0Tro/abIVpJW0NYvQE4v5IjTc3I7GcigO0oTej8BVQ5H7JlF+uqSqTQUkyzkz+SQeL4jCcH1GYLMQ7WHqs2ArbS0ZQMkNlaJezZ1Pf3jqO1AutglxP9hg7jkwEJ/RBejFAN6SDA1UzO6SQcbmSjovxZnng2FnDFAC8ctg4aXDeUSSl9qLghrH1rBXlnL3B5DTptl6fch7GQl19zy9TDnMc6N8H2twzJ9k0MbwEn2I0eqZVNJBYEC80R6iZYIAkRjL6O5Pph6u9q4lNY8idzoZP0izLe3cYzM8s5zcpmSVmmQ/5VbA/bgGzw9WsPQnZpnMz/O+v/P62/3SyT8vZKoY/1Ys+y5tAYzFsHFOh0Xjde+MTv+D4krsfhQtIG0ZwEwBBFMduN4hwu58nwIznpSpR74uNqPbfFKGtS/gR6THeh9zoJ0KqH3YtdmxjuQiNcvtaUtD+2EwLXmRgmZEz0gLh5q+uzO9T1EcUSwjITc1AtKS4fZq45inPGjajwe7KtCcETZ"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Best of N\n\nWe will expand the Rock Paper Scissors game by allowing the game to be played several in rounds and let the best of N be the winner.\n\nIn particular, \nIf the game is played 6 times with the following results:\n- computer = rock, player = scissors\n- computer = scissors, player = paper\n- computer = paper, player = rock\n- computer = scissors, player = paper\n- computer = rock, player = paper\n- computer = scissors, player = rock\n\nThe results shows will be:\n\nThe computer won: 4 rounds\n\nThe user won: 2 rounds\n\nWe will use an integer to determine who won the round. In particular,\n- 0 = player won the round\n- 1 = computer won the round\n\n\n<div class=\"hint\">\n  Line 5: use input\n</div>\n<div class=\"hint\">\n  Line 9: It is either True or False\n</div>\n<div class=\"hint\">\n  Line 15: Loop should end if the two values are different\n</div>\n<div class=\"hint\">\n  Line 43: Use a for loop\n</div>\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "Assessment",
+      "task_list" : [
+        {
+          "choiceOptions" : [
+            {
+              "text" : "void",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "String",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "None",
+              "status" : "CORRECT"
+            },
+            {
+              "text" : "None of the above",
+              "status" : "INCORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "Quiz_1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "qfsGgOCumdmJ4tbXi5aT9fQVjrZJSgHp3uEkI2EYCyRj6zUIWxBE+kYtwFVkCZ7nEjK5TopD8WKEh1n2NGc9j0sDixiSwOOLkQ3nlw8kFsW0JYxcRishNOFjP3LhD6XLktxJ+RzRVYIRnivQcaPGngfeUtktkRJyBntpch4xXChJfs6lwnTouWguHO0yvx1NYazVmq4jjiIuQKda1QK/WGYkNO92H6Pg7HgiNZj8MiXOkj3sH/EXfPh+RKPrWmKNuqQ84qb7DJ75JVC/vDWNkam+NNS5AKrUFOTJn/Sm8Gp9gP7gPWCujg2s++tJ+0Sl"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "What is the return value of the cheer_up function",
+          "description_format" : "MD",
+          "task_type" : "choice",
+          "id" : 1844988525
+        },
+        {
+          "id" : 694340450,
+          "name" : "Exercise_1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 19,
+                  "length" : 3,
+                  "possible_answer" : "KnPwT9OaqA2qgXukFbdg8w==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 29,
+                  "length" : 3,
+                  "possible_answer" : "Jiu2y0qHtiKevPrB+ecABv9tKTljuuVQtLbSRDepHZVIQh/wXw6B4E70Klzn1J8T",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 44,
+                  "length" : 3,
+                  "possible_answer" : "NzfGEIbTSL1lDJn1MZv5QA==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "mkLnWxPT6aIgF2lsbEm3/jmkH4YSd3HoA4bFZ/L0c8S3Pg0IWmkOTB9Oklayp2yzbH82r+npwt7O7xrSgKnjdA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdRNfl4QMEdGnWZGwvTOy6VF452V1N6vVa6VUR0EUabmUdsHj6RQ5CsUvbwbZzl45C0Gj9Ip1cfDLKGtBpQSDGc78hnxXrsl1InLpWkuveLaN1Lk3ts2oXADwriBcFldgUc8NG8+TiBIBwNeuEH1AxTnuRiKmNsO7PT0OrK+t0gVJW+ysMkfxJfH+5gSy11zPlc24FR0hh5IGUjL/6zwlW19f2ZJXPndbVnYmX+kzhSdQuhifreG+ypvv0sETAU0tSlewR5jxVFvZf5fNYcwFb0rLKveJj0hAAKbKCOCgYdxbMJvuSmdWLYE+PNOCEFg0SHFW6WKzHlt10Cx+GSpkFpuHe9g0MtApwjfAY7Y1q12wEzOgXYAc3+TrKQc6iJus6Qcv6Xi5xvyJ90wmSNXwVLRZ1ydkLHWn+9FdcJmbMaAp8lWS+snkxzzJ+NaJm9J5qh+Yze1Qbfp/fTQoRLSnjk3GBB4y2GLMjyTzzG6TGW/f+yR0fNz7UbZA1As0gVSpatYS8i9WSMTGz/wfN/kOqFhI3mjC7azFN1iSe5B8K5CsfoKLDa6HLttb2/zhPisuEgBoDm19Yf5cwhOLce69/chdL8hJr0APYQZRkiMZXRH42NIsN+zI+/LLnTALL+KzlbiV75b1x+MyFEMxuCWDKw86+Ga+uqhvEH352Ivtn4zJv/AjeCbFWBqsZHAPPEd/K8IlqNhrtHbpDAyfeCFUWezkyhPLlINEQtW0RL5NMJ9T/auRPZlSSKpqYAUW3NWVBe5EgdAS9cjuN0aD2tHnDmukvlFGXWXWcrc3BxnK4ly/oO5AtwX4g1bvW6ZEE5vAQWgsF6zj9lW3A8Ta/FzDOcqOV7EoHYIh7wsOO9Wo1hTX6QgCQCxdQ9fChbrMg6Ors5MiUGQ4ALgtOyPZWihni6KApGe9KTsVcC57s7/32U+rtQbkh9cy9JERrIoJjqpbCg1AkhNF3Z0xR42qNa5i76rRrbfbGxRsOP14ir74PIk8qDCrhnMM8Raj3tUfejX1McM2C8GeeRj1j1JkrNNlxpuCktSMyYoNofJ8lVrVZKI9"
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# The US is Weird\n\nThe United States measures temperature in Fahrenheit degrees (imperial system), whereas the rest of the world uses  Celsius (metric system). Your friend asked you to develop an app to convert between the two temperature metrics for people from Tennessee wanting to ski in Banff, Whistler, Zermatt, or Verbier. \n\nThe formula to convert from Celsius degrees C to Fahrenheit degrees F is:\nF = C*9/5 + 32\n\nYour task is to write a program that will be the basis of this app: \n\nYour program will:\n1. Read a temperature in Celsius \n2. Convert it to Fahrenheit\n3. Print the result",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 2069590681,
+          "name" : "Exercise_2",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 30,
+                  "possible_answer" : "WWrABjDT08P177I3cRtADhDFUH3/AJG+kx24BMjZoZ4JXsApzjMXxntYfOugQxcg7zVyaCX/nLFWjDQLXmg+r1VGh60n2M/i2Ch4UURzqowh7GfkhgEpTCeGuxSqdkY3ZCggvHbAQ8YeJlqSARHYn7fHnOTUGDcUkEDJo4y1y04tiUOXUox9AVvZMkaYXQ6IHPVQLm5HVjflxQKlrb6BzJmUpbXlFNxLUG5eUYoMLNkwzVlUWFWq3NBCfl0uuvS1RlWeYFS926K/R7/QCtQYMyPBszZDCm1M6a6Aic0SwCB+oqgPWC+lovWhwkULR7470V1FvqhrOJOA3AsODz8+y2XWx44P2CACe/Z4HHzgmQg=",
+                  "placeholder_text" : "# Implement your function here"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "CWbEQW4jIYppTyjpDTftJajDz5aW4Q42vzoT3KVHyI8="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "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"
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Speeding\n\nYou are driving a little too fast, and a police officer stops you. \n\nWrite a function speeding to return one of 3 possible results: \"No Ticket\", \"Small Ticket\", or \"Big Ticket\". \n\n- If your speed is 60 or less, the result is \"No Ticket\". \n- If speed is between 61 and 80 inclusive, the result is \"Small Ticket\". \n- If speed is 81 or more, the result is \"Big Ticket\". \n \nThe limits above apply unless it is your birthday. On your birthday, your speed can be 5 higher in all cases.\n\nUse a boolean value in the parameters of the function to indicate whether today is your birthday or not:\n- 0 means it is not your birthday\n- 1 means it is your birthday\n\n<div class=\"hint\" xmlns=\"http://www.w3.org/1999/html\">\n  Your class definition should look like this: <code>def speeding(speed, birthday):</code>\n\n- The name of the parameters might be different\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 48470609,
+          "name" : "Exercise_3",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "0LMHow5LIbEEWW3vnwYT7W+vTR7PamU3fe5LRKtWtt+7eciRWhD3InrsXSwR6wa5I7HEf19UHuHseepDwk3muT/ObwzDa0Jvk/hQ8n2U1R9xP4KaWVt28t8eSqNpG+Wz16SOUqs1djyok8PNbmX/Len94WMJn/4i6IGQAXfvdlA="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdRNfl4QMEdGnWZGwvTOy6VHa6vugPEvLACXKiB6cucUvGz9OOo02yDbbM1gfIzXKR/Lb3hZT2ZEmkD+l6YqT3zBinBgK9cEBY97EdWuSrbDBFavFVw0YvJh/w3MgArs8PyyQn5+Lz7fY58t9VjzKSKcmFg2X+NJDoYxcaH1L+kSXYSJRY2Kj9UrTgaikECU/napuN7tk7LUdBiXgZjWcLz2DkH04G8yHwp1fSUYt7gxoUzjWAWVWwQBZQJB2nN/AUWGsTOqman5IJa80kzMonvGEeQC8xOzPDL7Vf6OrdGrHlR3Xy9F+FCA3cBVJFgYV8+HUBHbKg8X606DgiYCCw5zmafWAHsG+n3a0ktyCqDCy/uR3yV29pHlJaxi63vcCjpZxQrG4eSiUzHpyw4FNUtfR9uKRD/cOEG/SycomZRHXnQLtW1oShhnnz/Ci/0UQ13BEPBTaoVL5ryY5Mb9OGcT8VOJ8lXN2Cc9zMUEpnQQtGZxX0/yhbVedgsW5ZLnmq6fVbExvOf2wDyac59NTjE1fziFL8T59EYDxV+nUKF79kqDvzAT/R5D2PnMJunBbTr+7rAc9AJPPxkqdVIe7ptN/bvCHgIROJEbnY0hDt8QYujgZz163UtD4I40BTFwQK/pEzI+TKu2C/cl2Tf5ohYV4hUVSIYbmM6I9v2TfSHVnU3IrZ7FUW5EwMDuLHlC7TWj+hCqEqmyFIw01TopZQxc1z+uUwwXwqd2ePtryV3ExV7/87/+eR1Fs1YU+5G999Lgsmcv18ATB5U/w6pH0ppg="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Book\n\nWrite a function called favorite_book() that accepts two parameters, title and author. \n\nThe function should return the message to be printed: ```<title>``` by ```<author>``` is my favorite book. \n\nExample:\nIf the parameters are:\n```\ntitle = \"The Dream\"\nauthor = \"me\"\n```\n\nThe function should return the message : ```\"The Dream by me is my favorite book.\"``` \n\n<div class=\"hint\">\n  Make sure to include a book title and author as an argument in the function call\n</div>",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 306300780,
+          "name" : "Exercise_4",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "OurO79Ead4AgqwO/8SbEEmjAReLJIDdHAdKcrXJCam5fzxC7gjEwUXZOLZKhyiXK"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Loops\n\nConvert the following for loops into the equivalent while loop:\n\n### 1. \n```\nfor i in range (1, 10):\n  print (i, i*i)\n  b. sum = 0\n```\n### 2. \n```\nfor i in (range (10, 0, -1):\n  sum = sum + i\n  print (i, sum)\n```",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "framework",
+      "id" : 365512327
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "Loops/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+    },
+    {
+      "name" : "Functions/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+    }
+  ],
+  "version" : 13,
+  "edu_plugin_version" : "2022.7-2022.2-291"
+}

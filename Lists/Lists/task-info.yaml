@@ -1,0 +1,22 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 113
+    length: 2
+    placeholder_text: ???
+  - offset: 117
+    length: 31
+    placeholder_text: ???
+  - offset: 240
+    length: 7
+    placeholder_text: ???
+  - offset: 248
+    length: 6
+    placeholder_text: ???
+  - offset: 329
+    length: 25
+    placeholder_text: '# Replace "Iron Man" with "Spiderman" here'
+- name: __init__.py
+  visible: false

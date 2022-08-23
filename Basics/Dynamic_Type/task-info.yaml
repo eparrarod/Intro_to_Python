@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 353
+    length: 1
+    placeholder_text: '# Assign a value of your choice (int, float, String)'
+- name: __init__.py
+  visible: false

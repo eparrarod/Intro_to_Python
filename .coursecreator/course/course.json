@@ -50,14 +50,14 @@
               "name" : "main.py",
               "placeholders" : [
                 {
-                  "offset" : 375,
+                  "offset" : 377,
                   "length" : 23,
                   "possible_answer" : "1enQCuiWq9OWQ4OfBvN0HA==",
                   "placeholder_text" : "\"Comment out this line\""
                 }
               ],
               "is_visible" : true,
-              "text" : "a9VJii6CdrscpPfnVXQsIYmzKO2Y2ZO/dMG7Q0/lNk48uoYWvhd5Fpo9qoWOSRktBs6hXfAUzOklqNXhNVoEj5R2FK0+azqyBMdkt8P37NlHob/FrADo/PuommsHkIi0sp49PWAcBDCTfD67m5WlOjYmzm3edr2HseabF/ljCUGJHl+3XyjbjaMN6iZiXhh59FBwi/r9rFUUwtJx+mU8dBkckGC12jNrmunjDdOf8WPoo3906vbJvphVDJNv44ARHnBq2h1Ls0+mLDbwC+UqMSWksyBk31enOy3xRc89wqFpv3GYr7mxxLQPGRUZsyxp8WC1PA8oU2pFJlnTTq2yd8JOERSjezEUcZ8Qa21iPRYIxxPch0aVbrujoItfkPsgnZXq7nscf14HeMkm6hSCbxgHCvvKOsnN3ZYBZDRgqNBEdQVQdtKxmUSxYOL2jF1KDowQeaBi8Ano7d1Hdpx/3bfjmITLBLYkHKY+5LkGwdckK9QtjGFwTdspF0wnNBPf5O86RewxAJV4nvfkP5hDGsQz976mq1e3MSZ0eBeJ4NVOpPHLVW/u5ZE8grlNXMzjTKI5ceTgLI7kkL29UYE3yg=="
+              "text" : "a9VJii6CdrscpPfnVXQsIYmzKO2Y2ZO/dMG7Q0/lNk48uoYWvhd5Fpo9qoWOSRktBs6hXfAUzOklqNXhNVoEj5R2FK0+azqyBMdkt8P37NlHob/FrADo/PuommsHkIi0sp49PWAcBDCTfD67m5WlOjYmzm3edr2HseabF/ljCUGJHl+3XyjbjaMN6iZiXhh59FBwi/r9rFUUwtJx+mU8dBkckGC12jNrmunjDdOf8WPoo3906vbJvphVDJNv44ARHnBq2h1Ls0+mLDbwC+UqMSWksyBk31enOy3xRc89wqFpv3GYr7mxxLQPGRUZsyxp8WC1PA8oU2pFJlnTTq2ydwMTpHtv/KXeQRz34MWkqjOR3e/5yEOKQrLUD240IT0VXuvya/BCeEgJJmP5voXuzNkcfsEun+I/uLEYUe59JxYcvg91cNuRxiRqlTVVJPJsO3KLJShSFP2fqJYjH7myJh7AEqzY7LX06OOpCFGpn3M4TX3Myszx5EQWpGEdhF46NH8mdyrEFOVfPGSQB8Yn0j/W4apSJDt70gU21cpzfOL0FuR0tqDn89k1wbaahR2clJyQ7duU9TLnqCUmBjE6Tw=="
             },
             "__init__.py" : {
               "name" : "__init__.py",

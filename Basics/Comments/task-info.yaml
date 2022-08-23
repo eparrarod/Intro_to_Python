@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 375
+  - offset: 377
     length: 1
     placeholder_text: '"Comment out this line"'
 - name: __init__.py

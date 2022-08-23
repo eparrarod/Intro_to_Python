@@ -6,6 +6,9 @@
   "programming_language" : "Python",
   "language" : "en",
   "course_type" : "Marketplace",
+  "vendor" : {
+    "name" : "Parrarodrigueze"
+  },
   "items" : [
     {
       "id" : 1786106486,

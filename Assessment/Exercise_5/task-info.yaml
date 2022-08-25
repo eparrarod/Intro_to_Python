@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 18
+    placeholder_text: declare a taxes function here
+- name: __init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

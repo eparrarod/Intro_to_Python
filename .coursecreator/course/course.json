@@ -1187,6 +1187,79 @@
           "description_text" : "# Loops\n\nConvert the following for loops into the equivalent while loop:\n\n### 1. \n```\nfor i in range (1, 10):\n  print (i, i*i)\n  b. sum = 0\n```\n### 2. \n```\nfor i in (range (10, 0, -1):\n  sum = sum + i\n  print (i, sum)\n```",
           "description_format" : "MD",
           "task_type" : "theory"
+        },
+        {
+          "id" : 243982864,
+          "name" : "Exercise_6",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "Lq5w5Z4tLHrXfsXoNJ7fFLFxQawgN6lZXTl4q8vDgtq5JSxYGd1FqA+YZHTDnHqx9E/zRNnLN0xaC08Wy0vgIA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdRNfl4QMEdGnWZGwvTOy6VG+xoS0xqRA+y27Xk+5GuQfJ9+TsadVN1xJ31nVkBTp1G2MYKpP9CYzGjO3DR3ILmrnNvWSlxoYA7VNIBHZFmyTzDQFZT7hjaG4uB0ycRAIfzDHWUbGgHZdLSV/lw1XucM+yLlpi5EQNSDa7hfaZn2AX/4iM3tOWQnCvxLxCSiiaBx92FDbhbHp4oha57dcB9uR4hfISPhaFPTk+nm0IK0AsL2/PHvHrgpOkJHOH9GBjdqO54v/kO9OZ7eR8qJEvKClDj/Zu2TH7Mn1c32CN2zVc403O3pX5xh4BOHpw1grvUyO48GhnVnr/ejiIoblZ+ldb0L3HESlMSZAv3erTxN3XZpd5GiW47m0ACHytQXH9CC4rV9BGlVJoGCoGH3/vPAHX43lcjr/+XuLBv4S3otl3qR09vXFDFVLt+zNQTiCa92TX6++LAagUgbcHt/wOP20eu2iB1B0reW0mXfeQ54qaCI7HDr99s2BueMm6bshFfRxoIJxveyHbKnPXVSf79/JpfIMnAx0EtJMCCJ4PwNQvzPwg4dXArDNE2M4D8D7/4RbUtfs0yftiL9N1jYGmH1fEFHmonIEQsUNQDUKiQ+5eKYSrUyRIGGqMFfn1pt9LhqZ6hqYx1iMCd1fqwcfHiHM9p+aYqBGbSlc+QxASqXbF0e5gHvx4yU64gJhJfhuPmEv4FvpW72kdy3Vg+LQy5M2apESO9oWc6JA0nDv8ECJb0NKkm/BHAeeJPR/OTwQilAQhdsWhGjPc8Njmrop9RcX125enI4j3tyZMKt4w/2YpDJaLz+zKSalhSZRrwUVvK+2puxDma4mh8tcJavVUOLk1DD+4ka3jVsfgBslOFBk10+A29xLZUBWwjXOYRaKLz6yG5s+VlSSndYqx4NA9felE7+dpTVJmoDuNrSEm5oFIpShUbT1M4ZkoigESGq1cF+4IGmk4qj2U/Cgt48DYgk="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Given two strings, write a method that finds the longest common sub-string. If there is no common subsequence, return \"\".\n\nA sub-string of a string is a new string generated from the original string .\n\nFor example, \"ace\" is a sub-string of \"abcde\".\nA common sub-string of two strings is a sub-string that is common to both strings. ",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 705396333,
+          "name" : "Exercise_5",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 29,
+                  "possible_answer" : "LipdLBJLOuKsPfgUGFXSX9zAMlmbtncrlmO62V2DM2E=",
+                  "placeholder_text" : "declare a taxes function here"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "gMBNzzEWu8LpyI81JL03OhapoR0Mz4RDNapdotVmZQdSNCw/0hoWzB2wG97WFhPH3w1wuoX/jxNyjYzL8BuIN+alZG+Nke7qdXa9ngGpMMc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdRNfl4QMEdGnWZGwvTOy6VHe42dHQK1mT3RqMQUUizDR4UTABYBO70FfPJKAv2J03aPmLH4ctys3wGu8jliPRFukQhnp6FpgdGWxXyHHrYiIF6zuiOfmFbXclhcCOC2dsup1oev9Yx9oeEvFP7E7dLeA75duzFWJwRZj1MqS6Mc1+cXwYHYCqpOTDLorWYm/DV8x4iPQFAFveWOlYHCZmZTWTwcgzTyQh4zvpIzvGe83UJYEO7osdW2TVghNGZN27lGYyv2xqfZW/jZD404hW0F+uTrg0G0SeqFRTc7/TiOfmfURbz64W+MOoNHUdBSLjwgmUx2G0nq04qoJDD6qbC+PZpqsz8r0ttF4Qalv4SJn2UFUfOt6sJ+ttfbnVkhr06JfCLhtBJGYtWHSXjvq5s51tAagehKlXsSy0V06LuSMht0zlld6+ipW3Kgf7ZWY7LkJFmzVSqZLgmmJSZRTWu6O1oLPeiROBCh3NKgge8yrgz3OUaHjXPiOgNV+C8zot15DfHUThP/KEu13kKt/ytj2prYLuWHT6avnrVQ6/ofLCY1C14vhCJy5KbKZLbafWsCVP87DNG9sxsK/AQA49EOn1h3NZK3vHz0gezJcBxS2AQtuzIUEuPOvIdip2HfF0l3E2PqDqTxyv1sgYbM4rkFLhKazGDco4o9ZqKpXDcdFcPvs02UXfCUi/2jqnw62FYXtLI03GveGvBjCPl7YrriF19c81kylmLVM1Xa5GXlDxEkAiUBIXACIqFHAoLp6/q7UDybpwq6xX3WzZblGDq5IE+AmE7Yqi8X+FGOwRF2t1AOy8obhJ/lGsA757OesuAFsffIG0ymPugcpPYpaq4COb4ciUInpzQsyPHch0jRRUGPmte19mbDSW9QOyoDHW7ZuMd3bGDh5LqqqblmFjl8uom7gaNE+agI3QW1sDNu49SvkW3tZTUHPvb13Om+tcflTYPwqOulfqhHC9DTOPmQ="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Taxes\nAny person that receives income (e.g., a salary) in the US must pay income taxes to the Internal Renevue service (IRS).\n\nThe amount of taxes paid by an individual change depending on their yearly income following a stratified bracket strategy. The brackets and rates for taxes in 2022 are shown in the table below.\n\n| Tax Bracket         | Tax Rate |\n|---------------------|----------|\n| \\\\$0 to $9,950      | 10%      |\n| \\\\$9,951 to $40,525 | 12%      |\n| \\\\$40,526 to $86,375 | 14%     |\n| \\\\$86,376 to $164,925 | 24%    |\n| \\\\$164,926 to $209,425 | 32%   |\n| \\\\$209,426 to $523,600  | 35%  |\n| \\\\$523,601 or more    | 37%    |\n\n###Example \\\\#1: Let’s say you have $32,000 in taxable income. That puts you in the 12% tax bracket. But do you pay 12% on all $32,000? No. Actually, you pay only 10% on the first $9,950; you pay 12% on the rest.\n\nYour task is to write a program that takes as input the yearly income of an individual and returns the amount of taxes they owe. Round it to the nearest dollar (e.g., 528.25 needs to be rounded to 528, 1354.79 needs to be rounded to 1355)",
+          "description_format" : "MD",
+          "task_type" : "edu"
         }
       ],
       "type" : "framework",

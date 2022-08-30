@@ -19,6 +19,3 @@ def square_function():
     number = 1
     return square, number  # This function returns two values
 
-
-def less_than_ten(a):
-    return 11

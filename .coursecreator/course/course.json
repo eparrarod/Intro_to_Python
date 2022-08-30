@@ -780,14 +780,14 @@
           "task_type" : "theory"
         },
         {
-          "id" : 6446013,
+          "id" : 16713034,
           "name" : "Function_With_Loop",
           "files" : {
             "task.py" : {
               "name" : "task.py",
               "placeholders" : [ ],
               "is_visible" : true,
-              "text" : "XEQuXU1rsYg3oQPm5eSAnGKcFU+WDufJh+IrRjOrxBTG1VBOLIGCV2T8d4Y9W98823R4qTNGubCnhoojlFG1ZGg8l20EFHroT83V5Bjz8MM8PghNQPWgkEHDJoIRNGmGhkiIJtLrCfaish82IjknK9kwE0EAaANEvttoPjdU7shTGzhOW1CbSPKve17cJEi1EXX2w3CZ64sSZD6PWqZ2dtQrWnpyenCgqzx8pw2IZg21IuY4c1vUJ+G52TksMXB/dhPZQlKOEJF2BO27zPPq7JpcRQAYd4eI9VnnV1/c2Xn/OL1QI/j7pPRcARtD1IHiSj9Wxp4JXdomTPYI3+CrXyvPiOTvFGTGMcdhRJWiD7GowQfdXbbMIwQMcIRTiN0A+jg0oQverDFgBIG/52YzejEkITBmCg41BNIJ8XoH/h/9NdwkgYyhOuUXFIV1Gb3bhUeH0Bj+RNQ6UMic2RQ1G/2tbtgJQ+29Iw29Z/sjEm8irfa0QUPIQY1DSWfUHOqDGdl7RhGS9qD3R3ay4fv2IhWAQeO1yRaV30fyHrWFBoUr3fuM/4Pwm+z/sqBAoo/UqYAmH1V6Wp1YN+uLdAHwp6Wan9DS+uH+Lzzn0cOc6orYJUKKwdIMQyLLbB+P2K8YjD/KJEa2vlzqmNHsradL2AD9sbxfKApIid6dnq9MwkGHqSC9N1d6vwmHkXcfmUPvFzm4rA9uCYePw9X+b90ropAZtpC+6PjKAhoJ/26O2becR5rLivgeQXOMbVIoX1RNsGxlTkLWvSPtxQqpxGpfY8jOjtI8sxZOlBXkT3EKcrHfrO7ZIsK/OOwI35Og0C/f5sx099j8aC9W2ffKtOq3NGYBButAc63ZkkxTRGGMsk0af7IM4VCVDYRnHNLTTnycFuP5spHrkS+fE24xb4XtUg=="
+              "text" : "XEQuXU1rsYg3oQPm5eSAnGKcFU+WDufJh+IrRjOrxBTG1VBOLIGCV2T8d4Y9W98823R4qTNGubCnhoojlFG1ZGg8l20EFHroT83V5Bjz8MM8PghNQPWgkEHDJoIRNGmGhkiIJtLrCfaish82IjknK9kwE0EAaANEvttoPjdU7shTGzhOW1CbSPKve17cJEi1EXX2w3CZ64sSZD6PWqZ2dtQrWnpyenCgqzx8pw2IZg21IuY4c1vUJ+G52TksMXB/dhPZQlKOEJF2BO27zPPq7JpcRQAYd4eI9VnnV1/c2Xn/OL1QI/j7pPRcARtD1IHiSj9Wxp4JXdomTPYI3+CrXyvPiOTvFGTGMcdhRJWiD7GowQfdXbbMIwQMcIRTiN0A+jg0oQverDFgBIG/52YzejEkITBmCg41BNIJ8XoH/h/9NdwkgYyhOuUXFIV1Gb3bhUeH0Bj+RNQ6UMic2RQ1G/2tbtgJQ+29Iw29Z/sjEm8irfa0QUPIQY1DSWfUHOqDGdl7RhGS9qD3R3ay4fv2IhWAQeO1yRaV30fyHrWFBoUr3fuM/4Pwm+z/sqBAoo/UqYAmH1V6Wp1YN+uLdAHwp6Wan9DS+uH+Lzzn0cOc6orYJUKKwdIMQyLLbB+P2K8YjD/KJEa2vlzqmNHsradL2AD9sbxfKApIid6dnq9MwkGHqSC9N1d6vwmHkXcfmUPvFzm4rA9uCYePw9X+b90ropAZtpC+6PjKAhoJ/26O2becR5rLivgeQXOMbVIoX1RNsGxlTkLWvSPtxQqpxGpfY8jOjtI8sxZOlBXkT3EKcrHfrO7ZIsK/OOwI35Og0C/f5sx099j8aC9W2ffKtOq3NGYBButAc63ZkkxTRGGMsk0af7IM4VCVDYRnHNLTTnyck0IVVPM+xXcmj78qYXv3Hum5o0baDNDAWuz8ODRWGJNvlDIj5thUFm7mXwmad3VBLRnj0kuO/t9YFcS5gBKbwQ=="
             },
             "tests/test_task.py" : {
               "name" : "tests/test_task.py",
@@ -810,7 +810,7 @@
           },
           "description_text" : "You can put any of the code you have learnt thus far inside of a function as long as the code is properly indented.\n\n## Loops and functions\n\nAny loop can be placed inside of a function. Since the code within a function must be indented, the code inside a loop must be indented to be both inside of the function and inside of the loop's suite.\n\n```\ndef ckechout():\n    counter = 1\n    while counter < 5:\n        counter += 1\n```\n\n",
           "description_format" : "MD",
-          "task_type" : "edu"
+          "task_type" : "theory"
         },
         {
           "id" : 1374535494,
